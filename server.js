@@ -379,10 +379,8 @@ function processBid(code, playerId, bidAmount) {
   });
   if (room.bidHistory.length > 8) room.bidHistory.pop();
 
-  // Anti-sniping: Reset timer to 4s if less than 4s remains
-  if (room.timer < 4) {
-    room.timer = 4;
-  }
+  // Timer increment: Add 5 seconds on every valid bid (capped at 60s)
+  room.timer = Math.min(60, room.timer + 5);
 
   // Reset pass states for other players since price increased
   room.players.forEach(p => {
@@ -397,6 +395,8 @@ function processBid(code, playerId, bidAmount) {
     timer: room.timer,
     bidHistory: room.bidHistory
   });
+
+  io.to(code).emit('timer_tick', { timer: room.timer });
 
   broadcastRoom(code);
   return { success: true };

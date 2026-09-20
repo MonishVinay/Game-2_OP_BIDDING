@@ -1,5 +1,6 @@
 // Complete 150 Curated One Piece Characters Dataset
-// Includes official verified anime artwork, bounty-proportional power scaling, and base starting prices.
+// Combat ratings accurately scaled from 150 Character Power Ratings (1-1000 scale)
+// Overall = 40% Attack + 30% Strength + 30% Defense
 
 export const CHARACTERS = [
   {
@@ -16,18 +17,17 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 840,
-      "defense": 780,
-      "hakiPower": 720,
-      "skill": 660,
-      "total": 3000
+      "attack": 980,
+      "strength": 990,
+      "defense": 950,
+      "total": 974
     },
     "color": "#ef4444",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/191?cb=20260611004637",
     "quote": "I'm gonna become the King of the Pirates!",
-    "power": 3000,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
+    "power": 974,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 2,
@@ -36,25 +36,24 @@ export const CHARACTERS = [
     "title": "King of Hell",
     "bounty": 1111000000,
     "bountyFormatted": "฿ 1,111,000,000",
-    "tier": "SSR",
+    "tier": "EX",
     "faction": "Straw Hat Pirates",
     "role": "Swordsman",
     "devilFruit": "None",
     "fruitType": "None",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 311,
-      "defense": 289,
-      "hakiPower": 267,
-      "skill": 244,
-      "total": 1111
+      "attack": 925,
+      "strength": 945,
+      "defense": 890,
+      "total": 920
     },
     "color": "#16a34a",
     "image": "https://static.wikia.nocookie.net/onepiece/images/5/52/Roronoa_Zoro_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/150?cb=20241029161719",
     "quote": "Scars on the back are a swordsman's shame.",
-    "power": 1111,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 920,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 3,
@@ -63,25 +62,24 @@ export const CHARACTERS = [
     "title": "Cat Burglar",
     "bounty": 366000000,
     "bountyFormatted": "฿ 366,000,000",
-    "tier": "SR",
+    "tier": "R",
     "faction": "Straw Hat Pirates",
     "role": "Navigator",
     "devilFruit": "None (Zeus)",
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 102,
-      "defense": 95,
-      "hakiPower": 88,
-      "skill": 81,
-      "total": 366
+      "attack": 220,
+      "strength": 180,
+      "defense": 250,
+      "total": 217
     },
     "color": "#f97316",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/68/Nami_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/239?cb=20260315214841",
     "quote": "Life is like a pencil that will surely run out, but will leave the beautiful writing of life.",
-    "power": 366,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 217,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
     "id": 4,
@@ -90,25 +88,24 @@ export const CHARACTERS = [
     "title": "God Usopp",
     "bounty": 500000000,
     "bountyFormatted": "฿ 500,000,000",
-    "tier": "SR",
+    "tier": "R",
     "faction": "Straw Hat Pirates",
     "role": "Sniper",
     "devilFruit": "None",
     "fruitType": "None",
     "haki": "Observation",
     "stats": {
-      "attack": 140,
-      "defense": 130,
-      "hakiPower": 120,
-      "skill": 110,
-      "total": 500
+      "attack": 290,
+      "strength": 250,
+      "defense": 300,
+      "total": 281
     },
     "color": "#eab308",
     "image": "https://static.wikia.nocookie.net/onepiece/images/3/35/Usopp_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/215?cb=20221127233827",
     "quote": "There comes a time when a man has to stand and fight!",
-    "power": 500,
-    "basePrice": 5000000,
-    "basePriceFormatted": "฿ 5M"
+    "power": 281,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
     "id": 5,
@@ -117,25 +114,24 @@ export const CHARACTERS = [
     "title": "Stealth Black / Black Leg",
     "bounty": 1032000000,
     "bountyFormatted": "฿ 1,032,000,000",
-    "tier": "SSR",
+    "tier": "EX",
     "faction": "Straw Hat Pirates",
     "role": "Cook",
     "devilFruit": "None (Exoskeleton)",
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 289,
-      "defense": 268,
-      "hakiPower": 248,
-      "skill": 227,
-      "total": 1032
+      "attack": 915,
+      "strength": 940,
+      "defense": 860,
+      "total": 906
     },
     "color": "#3b82f6",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/b6/Sanji_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/133?cb=20240122012744",
     "quote": "Men who can't wipe away the tears of women aren't real men.",
-    "power": 1032,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 906,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 6,
@@ -151,16 +147,15 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "None",
     "stats": {
-      "attack": 70,
-      "defense": 65,
-      "hakiPower": 60,
-      "skill": 55,
-      "total": 250
+      "attack": 500,
+      "strength": 500,
+      "defense": 470,
+      "total": 491
     },
     "color": "#ec4899",
     "image": "https://static.wikia.nocookie.net/onepiece/images/a/af/Tony_Tony_Chopper_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/312?cb=20240720150824",
     "quote": "I'll become a doctor who can cure any disease!",
-    "power": 250,
+    "power": 491,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
@@ -178,16 +173,15 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 260,
-      "defense": 242,
-      "hakiPower": 223,
-      "skill": 205,
-      "total": 930
+      "attack": 625,
+      "strength": 640,
+      "defense": 610,
+      "total": 625
     },
     "color": "#8b5cf6",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Nico_Robin_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/223?cb=20260913163501",
     "quote": "I want to live! Take me to the sea with you!",
-    "power": 930,
+    "power": 625,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
@@ -205,18 +199,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 110,
-      "defense": 102,
-      "hakiPower": 95,
-      "skill": 87,
-      "total": 394
+      "attack": 650,
+      "strength": 650,
+      "defense": 720,
+      "total": 671
     },
     "color": "#06b6d4",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Franky_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/400?cb=20241110020715",
     "quote": "Superrr! No matter what kind of weapons you may hold, just being alive isn't a sin!",
-    "power": 394,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 671,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 9,
@@ -232,18 +225,17 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "None",
     "stats": {
-      "attack": 107,
-      "defense": 100,
-      "hakiPower": 92,
-      "skill": 84,
-      "total": 383
+      "attack": 590,
+      "strength": 620,
+      "defense": 600,
+      "total": 602
     },
     "color": "#a855f7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/41/Brook_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/171?cb=20161016160925",
     "quote": "Neither God nor devil can help those who have no will to fight!",
-    "power": 383,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 602,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 10,
@@ -259,18 +251,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 308,
-      "defense": 286,
-      "hakiPower": 264,
-      "skill": 242,
-      "total": 1100
+      "attack": 860,
+      "strength": 870,
+      "defense": 900,
+      "total": 875
     },
     "color": "#0284c7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/81/Jinbe_Anime_Infobox.png/revision/latest/scale-to-width-down/313?cb=20170521201349",
     "quote": "It's the future Pirate King I intend to serve!",
-    "power": 1100,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 875,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
     "id": 11,
@@ -279,25 +270,24 @@ export const CHARACTERS = [
     "title": "Fire Fist Ace",
     "bounty": 550000000,
     "bountyFormatted": "฿ 550,000,000",
-    "tier": "SR",
+    "tier": "SSR",
     "faction": "Whitebeard Pirates",
     "role": "Commander",
     "devilFruit": "Mera Mera no Mi",
     "fruitType": "Logia",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 154,
-      "defense": 143,
-      "hakiPower": 132,
-      "skill": 121,
-      "total": 550
+      "attack": 845,
+      "strength": 880,
+      "defense": 790,
+      "total": 839
     },
     "color": "#f97316",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/4f/Portgas_D._Ace_Anime_Infobox.png/revision/latest/scale-to-width-down/239?cb=20240629132600",
     "quote": "Thank you for loving someone like me, who is good for nothing!",
-    "power": 550,
-    "basePrice": 5000000,
-    "basePriceFormatted": "฿ 5M"
+    "power": 839,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
     "id": 12,
@@ -313,18 +303,17 @@ export const CHARACTERS = [
     "fruitType": "Logia",
     "haki": "Armament",
     "stats": {
-      "attack": 420,
-      "defense": 390,
-      "hakiPower": 360,
-      "skill": 330,
-      "total": 1500
+      "attack": 905,
+      "strength": 940,
+      "defense": 840,
+      "total": 896
     },
     "color": "#f59e0b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/c2/Sabo_Anime_Infobox.png/revision/latest/scale-to-width-down/264?cb=20230804035141",
     "quote": "Whenever Luffy calls for help, I will cross the world to reach him!",
-    "power": 1500,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 896,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
     "id": 13,
@@ -333,25 +322,24 @@ export const CHARACTERS = [
     "title": "Surgeon of Death",
     "bounty": 3000000000,
     "bountyFormatted": "฿ 3,000,000,000",
-    "tier": "EX",
+    "tier": "SSR",
     "faction": "Heart Pirates",
     "role": "Doctor",
     "devilFruit": "Ope Ope no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 840,
-      "defense": 780,
-      "hakiPower": 720,
-      "skill": 660,
-      "total": 3000
+      "attack": 855,
+      "strength": 900,
+      "defense": 790,
+      "total": 849
     },
     "color": "#eab308",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/4d/Trafalgar_D._Water_Law_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/177?cb=20230124163510",
     "quote": "The weak do not have the right to choose how they die.",
-    "power": 3000,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
+    "power": 849,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
     "id": 14,
@@ -367,18 +355,17 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 465,
-      "defense": 431,
-      "hakiPower": 398,
-      "skill": 365,
-      "total": 1659
+      "attack": 790,
+      "strength": 830,
+      "defense": 700,
+      "total": 775
     },
     "color": "#f43f5e",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/f0/Boa_Hancock_Anime_Infobox.png/revision/latest/scale-to-width-down/194?cb=20230126022456",
     "quote": "Whether I kick a kitten, tear off your ears... the world will forgive me. Why? Because I am beautiful!",
-    "power": 1659,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 775,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 15,
@@ -394,18 +381,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 1134,
-      "defense": 1053,
-      "hakiPower": 972,
-      "skill": 891,
-      "total": 4049
+      "attack": 950,
+      "strength": 990,
+      "defense": 880,
+      "total": 941
     },
     "color": "#dc2626",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/66/Shanks_Anime_Infobox.png/revision/latest/scale-to-width-down/279?cb=20240829145447",
     "quote": "Listen up... You can pour drinks on me, you can throw food at me... But I won't forgive anyone who hurts my friends!",
-    "power": 4049,
-    "basePrice": 30000000,
-    "basePriceFormatted": "฿ 30M"
+    "power": 941,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 16,
@@ -421,18 +407,17 @@ export const CHARACTERS = [
     "fruitType": "Logia",
     "haki": "Armament",
     "stats": {
-      "attack": 1119,
-      "defense": 1039,
-      "hakiPower": 959,
-      "skill": 879,
-      "total": 3996
+      "attack": 935,
+      "strength": 960,
+      "defense": 880,
+      "total": 926
     },
     "color": "#1e1b4b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/ff/Marshall_D._Teach_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/351?cb=20240128044952",
     "quote": "People's dreams... Have no end!",
-    "power": 3996,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
+    "power": 926,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 17,
@@ -448,18 +433,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 1005,
-      "defense": 933,
-      "hakiPower": 862,
-      "skill": 790,
-      "total": 3590
+      "attack": 955,
+      "strength": 995,
+      "defense": 900,
+      "total": 950
     },
     "color": "#7e22ce",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/bf/Dracule_Mihawk_Anime_Infobox.png/revision/latest/scale-to-width-down/257?cb=20151222105910",
     "quote": "It is not mere strength, but the ability to make allies of everyone he meets.",
-    "power": 3590,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
+    "power": 950,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 18,
@@ -468,25 +452,24 @@ export const CHARACTERS = [
     "title": "The Genius Jester / Emperor",
     "bounty": 3189000000,
     "bountyFormatted": "฿ 3,189,000,000",
-    "tier": "EX",
+    "tier": "R",
     "faction": "Cross Guild",
     "role": "Captain",
     "devilFruit": "Bara Bara no Mi",
     "fruitType": "Paramecia",
     "haki": "None",
     "stats": {
-      "attack": 893,
-      "defense": 829,
-      "hakiPower": 765,
-      "skill": 702,
-      "total": 3189
+      "attack": 90,
+      "strength": 70,
+      "defense": 120,
+      "total": 93
     },
     "color": "#0284c7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/f7/Buggy_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/400?cb=20240813025900",
     "quote": "We're going to claim the One Piece!",
-    "power": 3189,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
+    "power": 93,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
     "id": 19,
@@ -502,18 +485,17 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 350,
-      "defense": 325,
-      "hakiPower": 300,
-      "skill": 275,
-      "total": 1250
+      "attack": 805,
+      "strength": 840,
+      "defense": 770,
+      "total": 805
     },
     "color": "#ec4899",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Donquixote_Doflamingo_Anime_Infobox.png/revision/latest/scale-to-width-down/344?cb=20231017082245",
     "quote": "Pirates are evil? The Marines are righteous? Whoever wins this war becomes justice!",
-    "power": 1250,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 805,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
     "id": 20,
@@ -529,18 +511,17 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 296,
-      "defense": 275,
-      "hakiPower": 254,
-      "skill": 233,
-      "total": 1057
+      "attack": 835,
+      "strength": 870,
+      "defense": 810,
+      "total": 838
     },
     "color": "#be185d",
     "image": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Charlotte_Katakuri_Anime_Infobox.png/revision/latest/scale-to-width-down/267?cb=20230204155539",
     "quote": "I no longer consider you below my level.",
-    "power": 1057,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 838,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
     "id": 21,
@@ -556,18 +537,17 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 1413,
-      "defense": 1312,
-      "hakiPower": 1211,
-      "skill": 1110,
-      "total": 5046
+      "attack": 985,
+      "strength": 1000,
+      "defense": 950,
+      "total": 979
     },
     "color": "#facc15",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Edward_Newgate_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20220926165737",
     "quote": "The One Piece... IS REAL!",
-    "power": 5046,
-    "basePrice": 30000000,
-    "basePriceFormatted": "฿ 30M"
+    "power": 979,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 22,
@@ -583,18 +563,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 1558,
-      "defense": 1447,
-      "hakiPower": 1336,
-      "skill": 1224,
-      "total": 5565
+      "attack": 990,
+      "strength": 1000,
+      "defense": 950,
+      "total": 981
     },
     "color": "#b91c1c",
     "image": "https://static.wikia.nocookie.net/onepiece/images/2/24/Gol_D._Roger_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20230612100153",
     "quote": "My wealth and treasures? If you want it, I'll let you have it. Look for it!",
-    "power": 5565,
-    "basePrice": 30000000,
-    "basePriceFormatted": "฿ 30M"
+    "power": 981,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 23,
@@ -610,18 +589,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 1176,
-      "defense": 1092,
-      "hakiPower": 1008,
-      "skill": 924,
-      "total": 4200
+      "attack": 975,
+      "strength": 995,
+      "defense": 930,
+      "total": 968
     },
     "color": "#1d4ed8",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Monkey_D._Garp_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20230207160645",
     "quote": "Galaxy Impact! Love is always a hurricane!",
-    "power": 4200,
-    "basePrice": 30000000,
-    "basePriceFormatted": "฿ 30M"
+    "power": 968,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 24,
@@ -637,18 +615,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 1064,
-      "defense": 988,
-      "hakiPower": 912,
-      "skill": 836,
-      "total": 3800
+      "attack": 920,
+      "strength": 950,
+      "defense": 880,
+      "total": 917
     },
     "color": "#64748b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/b1/Silvers_Rayleigh_Anime_Infobox.png/revision/latest/scale-to-width-down/209?cb=20230601221758",
     "quote": "To live through hardship and triumph... that is the romance of men.",
-    "power": 3800,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
+    "power": 917,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 25,
@@ -664,18 +641,17 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 1456,
-      "defense": 1352,
-      "hakiPower": 1248,
-      "skill": 1144,
-      "total": 5200
+      "attack": 940,
+      "strength": 960,
+      "defense": 900,
+      "total": 934
     },
     "color": "#047857",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/f5/Monkey_D._Dragon_Anime_Infobox.png/revision/latest/scale-to-width-down/274?cb=20250621010227",
     "quote": "A world where freedom is crushed must be overthrown!",
-    "power": 5200,
-    "basePrice": 30000000,
-    "basePriceFormatted": "฿ 30M"
+    "power": 934,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 26,
@@ -691,16 +667,15 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 140,
-      "defense": 130,
-      "hakiPower": 120,
-      "skill": 110,
-      "total": 500
+      "attack": 610,
+      "strength": 650,
+      "defense": 560,
+      "total": 607
     },
     "color": "#ec4899",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/b8/Koby_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/300?cb=20241114130518",
     "quote": "Please stop fighting! Each life has a family waiting for them!",
-    "power": 500,
+    "power": 607,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
@@ -718,18 +693,17 @@ export const CHARACTERS = [
     "fruitType": "Logia",
     "haki": "Armament",
     "stats": {
-      "attack": 126,
-      "defense": 117,
-      "hakiPower": 108,
-      "skill": 99,
-      "total": 450
+      "attack": 585,
+      "strength": 610,
+      "defense": 560,
+      "total": 585
     },
     "color": "#94a3b8",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/c4/Smoker_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/306?cb=20221101011905",
     "quote": "A Marine doesn't run from pirates!",
-    "power": 450,
-    "basePrice": 5000000,
-    "basePriceFormatted": "฿ 5M"
+    "power": 585,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
     "id": 28,
@@ -745,18 +719,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 42,
-      "defense": 39,
-      "hakiPower": 36,
-      "skill": 33,
-      "total": 150
+      "attack": 320,
+      "strength": 330,
+      "defense": 320,
+      "total": 323
     },
     "color": "#38bdf8",
     "image": "https://static.wikia.nocookie.net/onepiece/images/1/1e/Tashigi_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/261?cb=20251127120726",
     "quote": "I will gather all the Meito swords from villains around the world!",
-    "power": 150,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 323,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
     "id": 29,
@@ -772,18 +745,17 @@ export const CHARACTERS = [
     "fruitType": "Logia",
     "haki": "Armament",
     "stats": {
-      "attack": 550,
-      "defense": 511,
-      "hakiPower": 472,
-      "skill": 432,
-      "total": 1965
+      "attack": 775,
+      "strength": 820,
+      "defense": 730,
+      "total": 775
     },
     "color": "#d97706",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/fd/Crocodile_Anime_Infobox.png/revision/latest/scale-to-width-down/318?cb=20230125235528",
     "quote": "Dogs that run away to lick their wounds have no right to speak of justice.",
-    "power": 1965,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 775,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 30,
@@ -799,18 +771,17 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 420,
-      "defense": 390,
-      "hakiPower": 360,
-      "skill": 330,
-      "total": 1500
+      "attack": 800,
+      "strength": 835,
+      "defense": 760,
+      "total": 798
     },
     "color": "#334155",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Rob_Lucci_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/215?cb=20230102052113",
     "quote": "There is dark justice that must be enacted.",
-    "power": 1500,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 798,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 31,
@@ -826,16 +797,15 @@ export const CHARACTERS = [
     "fruitType": "Logia",
     "haki": "Observation",
     "stats": {
-      "attack": 140,
-      "defense": 130,
-      "hakiPower": 120,
-      "skill": 110,
-      "total": 500
+      "attack": 665,
+      "strength": 760,
+      "defense": 500,
+      "total": 644
     },
     "color": "#facc15",
     "image": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Enel_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20230520213625",
     "quote": "I am God. Fear is the only emotion I allow you.",
-    "power": 500,
+    "power": 644,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
@@ -853,16 +823,15 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 90,
-      "defense": 83,
-      "hakiPower": 77,
-      "skill": 70,
-      "total": 320
+      "attack": 510,
+      "strength": 540,
+      "defense": 530,
+      "total": 525
     },
     "color": "#6d28d9",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/be/Gecko_Moria_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20181127062446",
     "quote": "Kishishishi! Do your own work? What a hassle! Shadows, come to me!",
-    "power": 320,
+    "power": 525,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
@@ -873,25 +842,24 @@ export const CHARACTERS = [
     "title": "The Tyrant / Pacifista",
     "bounty": 296000000,
     "bountyFormatted": "฿ 296,000,000",
-    "tier": "SR",
+    "tier": "EX",
     "faction": "Revolutionary Army",
     "role": "Vanguard",
     "devilFruit": "Nikyu Nikyu no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 266,
-      "defense": 247,
-      "hakiPower": 228,
-      "skill": 209,
-      "total": 950
+      "attack": 875,
+      "strength": 900,
+      "defense": 950,
+      "total": 905
     },
     "color": "#374151",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/8d/Bartholomew_Kuma_Anime_Infobox.png/revision/latest/scale-to-width-down/238?cb=20221012030835",
     "quote": "If you were to go on a trip... where would you like to go?",
-    "power": 950,
-    "basePrice": 5000000,
-    "basePriceFormatted": "฿ 5M"
+    "power": 905,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 34,
@@ -900,23 +868,22 @@ export const CHARACTERS = [
     "title": "Corazon",
     "bounty": 200000000,
     "bountyFormatted": "฿ 200,000,000",
-    "tier": "SR",
+    "tier": "R",
     "faction": "Marines",
     "role": "Tactician",
     "devilFruit": "Nagi Nagi no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 56,
-      "defense": 52,
-      "hakiPower": 48,
-      "skill": 44,
-      "total": 200
+      "attack": 430,
+      "strength": 450,
+      "defense": 440,
+      "total": 439
     },
     "color": "#e11d48",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/71/Donquixote_Rosinante_Anime_Infobox.png/revision/latest/scale-to-width-down/270?cb=20150802160734",
     "quote": "Law! I love you! Live freely!",
-    "power": 200,
+    "power": 439,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
@@ -927,25 +894,24 @@ export const CHARACTERS = [
     "title": "Mr. 1",
     "bounty": 175000000,
     "bountyFormatted": "฿ 175,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Cross Guild",
     "role": "Swordsman",
     "devilFruit": "Supa Supa no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 49,
-      "defense": 46,
-      "hakiPower": 42,
-      "skill": 39,
-      "total": 175
+      "attack": 605,
+      "strength": 630,
+      "defense": 650,
+      "total": 626
     },
     "color": "#475569",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/e9/Daz_Bonez_Anime_Infobox.png/revision/latest/scale-to-width-down/186?cb=20221102004113",
     "quote": "My entire body is made of blades.",
-    "power": 175,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 626,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 36,
@@ -961,16 +927,15 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "None",
     "stats": {
-      "attack": 37,
-      "defense": 34,
-      "hakiPower": 32,
-      "skill": 29,
-      "total": 132
+      "attack": 440,
+      "strength": 450,
+      "defense": 430,
+      "total": 440
     },
     "color": "#ec4899",
     "image": "https://static.wikia.nocookie.net/onepiece/images/0/0e/Bentham_Anime_Infobox.png/revision/latest/scale-to-width-down/224?cb=20160929070742",
     "quote": "One may stray from the path of a man, but not from the path of humanity! Okama Way!",
-    "power": 132,
+    "power": 440,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
@@ -981,25 +946,24 @@ export const CHARACTERS = [
     "title": "Ghost Princess",
     "bounty": 80000000,
     "bountyFormatted": "฿ 80,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Thriller Bark",
     "role": "Tactician",
     "devilFruit": "Horo Horo no Mi",
     "fruitType": "Paramecia",
     "haki": "None",
     "stats": {
-      "attack": 22,
-      "defense": 21,
-      "hakiPower": 19,
-      "skill": 18,
-      "total": 80
+      "attack": 455,
+      "strength": 440,
+      "defense": 480,
+      "total": 458
     },
     "color": "#f43f5e",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Perona_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/233?cb=20221124200121",
     "quote": "Horo horo horo! Negative Hollow, make them despair!",
-    "power": 80,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 458,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
     "id": 38,
@@ -1008,25 +972,24 @@ export const CHARACTERS = [
     "title": "Gorgon Sister",
     "bounty": 40000000,
     "bountyFormatted": "฿ 40,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Kuja Pirates",
     "role": "Fighter",
     "devilFruit": "Hebi Hebi no Mi, Model: Anaconda",
     "fruitType": "Zoan",
     "haki": "Observation",
     "stats": {
-      "attack": 11,
-      "defense": 10,
-      "hakiPower": 10,
-      "skill": 9,
-      "total": 40
+      "attack": 535,
+      "strength": 570,
+      "defense": 500,
+      "total": 535
     },
     "color": "#15803d",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Boa_Sandersonia_Anime_Infobox.png/revision/latest/scale-to-width-down/270?cb=20141017161424",
     "quote": "We will protect our secret until the end.",
-    "power": 40,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 535,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
     "id": 39,
@@ -1035,25 +998,24 @@ export const CHARACTERS = [
     "title": "Gorgon Sister",
     "bounty": 40000000,
     "bountyFormatted": "฿ 40,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Kuja Pirates",
     "role": "Fighter",
     "devilFruit": "Hebi Hebi no Mi, Model: King Cobra",
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 11,
-      "defense": 10,
-      "hakiPower": 10,
-      "skill": 9,
-      "total": 40
+      "attack": 545,
+      "strength": 580,
+      "defense": 510,
+      "total": 545
     },
     "color": "#ca8a04",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/6c/Boa_Marigold_Anime_Infobox.png/revision/latest/scale-to-width-down/356?cb=20150903140509",
     "quote": "Salamander fire burns all invaders!",
-    "power": 40,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 545,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
     "id": 40,
@@ -1062,25 +1024,24 @@ export const CHARACTERS = [
     "title": "Chief Warden of Impel Down",
     "bounty": 800000000,
     "bountyFormatted": "฿ 800,000,000",
-    "tier": "SR",
+    "tier": "SSR",
     "faction": "World Government",
     "role": "Commander",
     "devilFruit": "Doku Doku no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 224,
-      "defense": 208,
-      "hakiPower": 192,
-      "skill": 176,
-      "total": 800
+      "attack": 850,
+      "strength": 900,
+      "defense": 860,
+      "total": 868
     },
     "color": "#701a75",
     "image": "https://static.wikia.nocookie.net/onepiece/images/9/9e/Magellan_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/400?cb=20251102163212",
     "quote": "Venom Demon! No one escapes Impel Down!",
-    "power": 800,
-    "basePrice": 5000000,
-    "basePriceFormatted": "฿ 5M"
+    "power": 868,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
     "id": 41,
@@ -1096,18 +1057,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 34,
-      "defense": 31,
-      "hakiPower": 29,
-      "skill": 26,
-      "total": 120
+      "attack": 380,
+      "strength": 400,
+      "defense": 390,
+      "total": 389
     },
     "color": "#b45309",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/86/Hannyabal_Manga_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/251?cb=20230920224617",
     "quote": "For the civilians sleeping peacefully in their beds, you villains cannot pass!",
-    "power": 120,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 389,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
     "id": 42,
@@ -1123,16 +1083,15 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 112,
-      "defense": 104,
-      "hakiPower": 96,
-      "skill": 88,
-      "total": 400
+      "attack": 620,
+      "strength": 650,
+      "defense": 610,
+      "total": 626
     },
     "color": "#9333ea",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/de/Emporio_Ivankov_Anime_Infobox.png/revision/latest/scale-to-width-down/261?cb=20180624120810",
     "quote": "Hee-Haw! Miracles only happen to those who never give up!",
-    "power": 400,
+    "power": 626,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
@@ -1150,16 +1109,15 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 224,
-      "defense": 208,
-      "hakiPower": 192,
-      "skill": 176,
-      "total": 800
+      "attack": 620,
+      "strength": 680,
+      "defense": 590,
+      "total": 629
     },
     "color": "#f43f5e",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/62/Jewelry_Bonney_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/266?cb=20230123001318",
     "quote": "Give me the most distorted future! A future where I am free!",
-    "power": 800,
+    "power": 629,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
@@ -1170,25 +1128,24 @@ export const CHARACTERS = [
     "title": "Captain Kid",
     "bounty": 3000000000,
     "bountyFormatted": "฿ 3,000,000,000",
-    "tier": "EX",
+    "tier": "SSR",
     "faction": "Kid Pirates",
     "role": "Captain",
     "devilFruit": "Jiki Jiki no Mi (Awakened)",
     "fruitType": "Paramecia",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 840,
-      "defense": 780,
-      "hakiPower": 720,
-      "skill": 660,
-      "total": 3000
+      "attack": 855,
+      "strength": 900,
+      "defense": 810,
+      "total": 855
     },
     "color": "#dc2626",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/47/Eustass_Kid_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/336?cb=20240505021859",
     "quote": "Compared to the righteous greed of the rulers, criminals look downright humane!",
-    "power": 3000,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
+    "power": 855,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
     "id": 45,
@@ -1197,25 +1154,24 @@ export const CHARACTERS = [
     "title": "Massacre Soldier",
     "bounty": 200000000,
     "bountyFormatted": "฿ 200,000,000",
-    "tier": "SR",
+    "tier": "SSR",
     "faction": "Kid Pirates",
     "role": "Swordsman",
     "devilFruit": "None",
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 56,
-      "defense": 52,
-      "hakiPower": 48,
-      "skill": 44,
-      "total": 200
+      "attack": 755,
+      "strength": 790,
+      "defense": 710,
+      "total": 752
     },
     "color": "#0284c7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/70/Killer_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/379?cb=20210815025653",
     "quote": "Fafafa! I will cut down anyone who stands before my captain!",
-    "power": 200,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 752,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 46,
@@ -1231,18 +1187,17 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 90,
-      "defense": 83,
-      "hakiPower": 77,
-      "skill": 70,
-      "total": 320
+      "attack": 635,
+      "strength": 660,
+      "defense": 620,
+      "total": 638
     },
     "color": "#eab308",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/f8/Basil_Hawkins_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/400?cb=20230906163534",
     "quote": "The probability of survival is zero percent.",
-    "power": 320,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 638,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 47,
@@ -1258,18 +1213,17 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 98,
-      "defense": 91,
-      "hakiPower": 84,
-      "skill": 77,
-      "total": 350
+      "attack": 640,
+      "strength": 700,
+      "defense": 600,
+      "total": 646
     },
     "color": "#ea580c",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/d0/Scratchmen_Apoo_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/367?cb=20210426143015",
     "quote": "Check it out! Music that blows you away!",
-    "power": 350,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 646,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 48,
@@ -1285,18 +1239,17 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 62,
-      "defense": 58,
-      "hakiPower": 53,
-      "skill": 49,
-      "total": 222
+      "attack": 690,
+      "strength": 710,
+      "defense": 670,
+      "total": 690
     },
     "color": "#0284c7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/0/04/X_Drake_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/237?cb=20200209080003",
     "quote": "I am a marine officer of the secret special force SWORD.",
-    "power": 222,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 690,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 49,
@@ -1312,18 +1265,17 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 98,
-      "defense": 91,
-      "hakiPower": 84,
-      "skill": 77,
-      "total": 350
+      "attack": 600,
+      "strength": 580,
+      "defense": 780,
+      "total": 648
     },
     "color": "#0f172a",
     "image": "https://static.wikia.nocookie.net/onepiece/images/9/99/Capone_Bege_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/245?cb=20160911163015",
     "quote": "Big Father! A true man protects his family with his life!",
-    "power": 350,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 648,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 50,
@@ -1332,25 +1284,24 @@ export const CHARACTERS = [
     "title": "Mad Monk",
     "bounty": 108000000,
     "bountyFormatted": "฿ 108,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Fallen Monk Pirates",
     "role": "Captain",
     "devilFruit": "Karma Damage Conversion Fruit",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 30,
-      "defense": 28,
-      "hakiPower": 26,
-      "skill": 24,
-      "total": 108
+      "attack": 755,
+      "strength": 790,
+      "defense": 700,
+      "total": 749
     },
     "color": "#b45309",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/fb/Urouge_Anime_Infobox.png/revision/latest/scale-to-width-down/292?cb=20230126223235",
     "quote": "The more pain I take, the mightier my retribution!",
-    "power": 108,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 749,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 51,
@@ -1366,16 +1317,15 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 56,
-      "defense": 52,
-      "hakiPower": 48,
-      "skill": 44,
-      "total": 200
+      "attack": 480,
+      "strength": 500,
+      "defense": 440,
+      "total": 474
     },
     "color": "#f59e0b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/5/5f/Bepo_Anime_Infobox.png/revision/latest/scale-to-width-down/262?cb=20231210123641",
     "quote": "I'm sorry... Captain, I will save you with my Sulong power!",
-    "power": 200,
+    "power": 474,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
@@ -1393,18 +1343,17 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 1680,
-      "defense": 1560,
-      "hakiPower": 1440,
-      "skill": 1320,
-      "total": 6000
+      "attack": 995,
+      "strength": 1000,
+      "defense": 960,
+      "total": 986
     },
     "color": "#18181b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/fb/Rocks_D._Xebec_Manga_Infobox.png/revision/latest/scale-to-width-down/400?cb=20260228213945",
     "quote": "The King of the entire World shall be mine!",
-    "power": 6000,
-    "basePrice": 30000000,
-    "basePriceFormatted": "฿ 30M"
+    "power": 986,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 53,
@@ -1420,18 +1369,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 980,
-      "defense": 910,
-      "hakiPower": 840,
-      "skill": 770,
-      "total": 3500
+      "attack": 950,
+      "strength": 980,
+      "defense": 900,
+      "total": 944
     },
     "color": "#ea580c",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Kouzuki_Oden_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20210425071747",
     "quote": "I am Oden! And I was born... to boil!",
-    "power": 3500,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
+    "power": 944,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 54,
@@ -1447,18 +1395,17 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 420,
-      "defense": 390,
-      "hakiPower": 360,
-      "skill": 330,
-      "total": 1500
+      "attack": 890,
+      "strength": 920,
+      "defense": 860,
+      "total": 890
     },
     "color": "#06b6d4",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/bd/Yamato_Anime_Infobox.png/revision/latest/scale-to-width-down/269?cb=20260126165014",
     "quote": "I chose to be Oden! Raimei Hakke!",
-    "power": 1500,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 890,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
     "id": 55,
@@ -1474,22 +1421,21 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "hakiPower": 72,
-      "skill": 66,
-      "total": 300
+      "attack": 525,
+      "strength": 560,
+      "defense": 500,
+      "total": 528
     },
     "color": "#dc2626",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/ec/Kin%27emon_Anime_Infobox.png/revision/latest/scale-to-width-down/216?cb=20191124100115",
     "quote": "Foxfire Style cuts through any blaze!",
-    "power": 300,
+    "power": 528,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
   {
     "id": 56,
-    "name": "Momonosuke",
+    "name": "Kozuki Momonosuke",
     "japaneseName": "光月モモの助",
     "title": "Shogun of Wano",
     "bounty": 500000000,
@@ -1501,16 +1447,15 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Observation",
     "stats": {
-      "attack": 140,
-      "defense": 130,
-      "hakiPower": 120,
-      "skill": 110,
-      "total": 500
+      "attack": 650,
+      "strength": 620,
+      "defense": 760,
+      "total": 674
     },
     "color": "#ec4899",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/8b/Kouzuki_Momonosuke_Anime_Infobox.png/revision/latest/scale-to-width-down/307?cb=20240904123638",
     "quote": "My name is Kozuki Momonosuke! The man who will rule Wano!",
-    "power": 500,
+    "power": 674,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
@@ -1528,16 +1473,15 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 56,
-      "defense": 52,
-      "hakiPower": 48,
-      "skill": 44,
-      "total": 200
+      "attack": 505,
+      "strength": 540,
+      "defense": 500,
+      "total": 514
     },
     "color": "#f472b6",
     "image": "https://static.wikia.nocookie.net/onepiece/images/1/12/Kikunojo_Anime_Infobox.png/revision/latest/scale-to-width-down/348?cb=20200620104530",
     "quote": "The snow that falls will never thaw under my blade.",
-    "power": 200,
+    "power": 514,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
@@ -1555,18 +1499,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 98,
-      "defense": 91,
-      "hakiPower": 84,
-      "skill": 77,
-      "total": 350
+      "attack": 660,
+      "strength": 700,
+      "defense": 630,
+      "total": 663
     },
     "color": "#0369a1",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Denjiro_Anime_Infobox.png/revision/latest/scale-to-width-down/258?cb=20210718045127",
     "quote": "For twenty years, I endured the burning rage in my heart!",
-    "power": 350,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 663,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 59,
@@ -1575,23 +1518,22 @@ export const CHARACTERS = [
     "title": "Raizo of the Mist",
     "bounty": 180000000,
     "bountyFormatted": "฿ 180,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Wano Samurai",
     "role": "Assassin",
     "devilFruit": "Maki Maki no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 50,
-      "defense": 47,
-      "hakiPower": 43,
-      "skill": 40,
-      "total": 180
+      "attack": 470,
+      "strength": 430,
+      "defense": 550,
+      "total": 482
     },
     "color": "#ca8a04",
     "image": "https://static.wikia.nocookie.net/onepiece/images/2/23/Raizo_Anime_Infobox.png/revision/latest/scale-to-width-down/328?cb=20161218152812",
     "quote": "Nin-nin! Ninja arts: Scroll absorb and unleash!",
-    "power": 180,
+    "power": 482,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
@@ -1609,18 +1551,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 70,
-      "defense": 65,
-      "hakiPower": 60,
-      "skill": 55,
-      "total": 250
+      "attack": 625,
+      "strength": 650,
+      "defense": 610,
+      "total": 628
     },
     "color": "#16a34a",
     "image": "https://static.wikia.nocookie.net/onepiece/images/5/5e/Kawamatsu_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20201215013006",
     "quote": "Kappa-pa! My blade Soto-muso will pierce through steel!",
-    "power": 250,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 628,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 61,
@@ -1636,45 +1577,43 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 90,
-      "defense": 83,
-      "hakiPower": 77,
-      "skill": 70,
-      "total": 320
+      "attack": 660,
+      "strength": 700,
+      "defense": 620,
+      "total": 660
     },
     "color": "#be185d",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/44/Ashura_Doji_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20191201102956",
     "quote": "I only ever bowed to one man, Kozuki Oden!",
-    "power": 320,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 660,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 62,
-    "name": "Issho (Fujitora)",
-    "japaneseName": "イッショウ（藤虎）",
-    "title": "Marine Admiral Fujitora",
-    "bounty": 3000000000,
-    "bountyFormatted": "฿ 3,000,000,000",
-    "tier": "EX",
-    "faction": "Marines",
-    "role": "Swordsman",
-    "devilFruit": "Zushi Zushi no Mi",
-    "fruitType": "Paramecia",
-    "haki": "Observation",
+    "name": "Shutenmaru",
+    "japaneseName": "酒天丸",
+    "title": "Leader of Mt. Atama Thieves",
+    "bounty": 320000000,
+    "bountyFormatted": "฿ 320,000,000",
+    "tier": "SR",
+    "faction": "Wano Samurai",
+    "role": "Samurai",
+    "devilFruit": "None",
+    "fruitType": "None",
+    "haki": "Armament",
     "stats": {
-      "attack": 896,
-      "defense": 832,
-      "hakiPower": 768,
-      "skill": 704,
-      "total": 3200
+      "attack": 660,
+      "strength": 700,
+      "defense": 620,
+      "total": 660
     },
-    "color": "#8b5cf6",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/e/e8/Issho_Anime_Infobox.png/revision/latest/scale-to-width-down/246?cb=20220718140829",
-    "quote": "Being blind allows one to avoid seeing many of this world's corruptions.",
-    "power": 3200,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
+    "color": "#be185d",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/44/Ashura_Doji_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20191201102956",
+    "quote": "There are no strong men left in this country to follow!",
+    "power": 660,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 63,
@@ -1690,16 +1629,15 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 143,
-      "defense": 133,
-      "hakiPower": 122,
-      "skill": 112,
-      "total": 510
+      "attack": 600,
+      "strength": 630,
+      "defense": 600,
+      "total": 609
     },
     "color": "#a855f7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/81/Izou_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/254?cb=20210919035558",
     "quote": "My flintlocks don't miss!",
-    "power": 510,
+    "power": 609,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
@@ -1717,18 +1655,17 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 28,
-      "defense": 26,
-      "hakiPower": 24,
-      "skill": 22,
-      "total": 100
+      "attack": 200,
+      "strength": 160,
+      "defense": 240,
+      "total": 200
     },
     "color": "#f472b6",
     "image": "https://static.wikia.nocookie.net/onepiece/images/9/97/Kouzuki_Hiyori_Anime_Infobox.png/revision/latest/scale-to-width-down/313?cb=20200811195812",
     "quote": "The Kozuki name will never perish!",
-    "power": 100,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 200,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
     "id": 65,
@@ -1737,25 +1674,24 @@ export const CHARACTERS = [
     "title": "Tyrant Shogun Orochi",
     "bounty": 200000000,
     "bountyFormatted": "฿ 200,000,000",
-    "tier": "SR",
+    "tier": "R",
     "faction": "Beasts Pirates",
     "role": "Tactician",
     "devilFruit": "Hebi Hebi no Mi, Model: Yamata no Orochi",
     "fruitType": "Zoan",
     "haki": "None",
     "stats": {
-      "attack": 56,
-      "defense": 52,
-      "hakiPower": 48,
-      "skill": 44,
-      "total": 200
+      "attack": 350,
+      "strength": 300,
+      "defense": 480,
+      "total": 374
     },
     "color": "#7e22ce",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/49/Kurozumi_Orochi_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20230911061118",
     "quote": "I will burn this country to ash!",
-    "power": 200,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 374,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
     "id": 66,
@@ -1771,18 +1707,17 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 1291,
-      "defense": 1199,
-      "hakiPower": 1107,
-      "skill": 1014,
-      "total": 4611
+      "attack": 995,
+      "strength": 1000,
+      "defense": 990,
+      "total": 995
     },
     "color": "#7c3aed",
     "image": "https://static.wikia.nocookie.net/onepiece/images/2/2d/Kaidou_Anime_Infobox.png/revision/latest/scale-to-width-down/386?cb=20231102015517",
     "quote": "Only Haki can transcend all!",
-    "power": 4611,
-    "basePrice": 30000000,
-    "basePriceFormatted": "฿ 30M"
+    "power": 995,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 67,
@@ -1791,25 +1726,24 @@ export const CHARACTERS = [
     "title": "King the Wildfire (Lunarian)",
     "bounty": 1390000000,
     "bountyFormatted": "฿ 1,390,000,000",
-    "tier": "SSR",
+    "tier": "EX",
     "faction": "Beasts Pirates",
     "role": "Swordsman",
     "devilFruit": "Ryu Ryu no Mi, Model: Pteranodon",
     "fruitType": "Zoan",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 389,
-      "defense": 361,
-      "hakiPower": 334,
-      "skill": 306,
-      "total": 1390
+      "attack": 905,
+      "strength": 940,
+      "defense": 920,
+      "total": 920
     },
     "color": "#1e1b4b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/8f/King_Anime_Infobox.png/revision/latest/scale-to-width-down/240?cb=20230423142631",
     "quote": "Kaido is the man who will become the Pirate King!",
-    "power": 1390,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 920,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
     "id": 68,
@@ -1825,18 +1759,17 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 370,
-      "defense": 343,
-      "hakiPower": 317,
-      "skill": 290,
-      "total": 1320
+      "attack": 825,
+      "strength": 840,
+      "defense": 900,
+      "total": 852
     },
     "color": "#eab308",
     "image": "https://static.wikia.nocookie.net/onepiece/images/5/52/Queen_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20200920174728",
     "quote": "Zoom, zoom, zoom! If I got any thinner, I'd be too popular!",
-    "power": 1320,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 852,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
     "id": 69,
@@ -1852,18 +1785,17 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 280,
-      "defense": 260,
-      "hakiPower": 240,
-      "skill": 220,
-      "total": 1000
+      "attack": 770,
+      "strength": 780,
+      "defense": 850,
+      "total": 797
     },
     "color": "#92400e",
     "image": "https://static.wikia.nocookie.net/onepiece/images/3/3f/Jack_Anime_Infobox.png/revision/latest/scale-to-width-down/316?cb=20161009223938",
     "quote": "Do you know who I am? I am Jack the Drought!",
-    "power": 1000,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 797,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 70,
@@ -1879,16 +1811,15 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 112,
-      "defense": 104,
-      "hakiPower": 96,
-      "skill": 88,
-      "total": 400
+      "attack": 700,
+      "strength": 720,
+      "defense": 720,
+      "total": 712
     },
     "color": "#06b6d4",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/dc/Ulti_Anime_Infobox.png/revision/latest/scale-to-width-down/193?cb=20240831170217",
     "quote": "Pay-pay! Ulti-Meteor headbutt!",
-    "power": 400,
+    "power": 712,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
@@ -1906,18 +1837,17 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 81,
-      "defense": 75,
-      "hakiPower": 70,
-      "skill": 64,
-      "total": 290
+      "attack": 605,
+      "strength": 620,
+      "defense": 680,
+      "total": 632
     },
     "color": "#4f46e5",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/46/Page_One_Anime_Infobox.png/revision/latest/scale-to-width-down/304?cb=20211128115519",
     "quote": "Stop embarrassing me in front of everyone, sis!",
-    "power": 290,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 632,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 72,
@@ -1933,16 +1863,15 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 153,
-      "defense": 142,
-      "hakiPower": 131,
-      "skill": 120,
-      "total": 546
+      "attack": 675,
+      "strength": 710,
+      "defense": 650,
+      "total": 678
     },
     "color": "#dc2626",
     "image": "https://static.wikia.nocookie.net/onepiece/images/9/94/Who%27s-Who_Anime_Infobox.png/revision/latest/scale-to-width-down/269?cb=20211201215156",
     "quote": "Do you know the legend of the Sun God Nika?",
-    "power": 546,
+    "power": 678,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
@@ -1960,16 +1889,15 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 134,
-      "defense": 125,
-      "hakiPower": 115,
-      "skill": 106,
-      "total": 480
+      "attack": 625,
+      "strength": 650,
+      "defense": 660,
+      "total": 643
     },
     "color": "#be185d",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/e2/Black_Maria_Anime_Infobox.png/revision/latest/scale-to-width-down/357?cb=20210808144206",
     "quote": "Come rest your head in my web, little bird.",
-    "power": 480,
+    "power": 643,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
@@ -1987,48 +1915,20 @@ export const CHARACTERS = [
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 132,
-      "defense": 123,
-      "hakiPower": 113,
-      "skill": 104,
-      "total": 472
+      "attack": 655,
+      "strength": 670,
+      "defense": 720,
+      "total": 679
     },
     "color": "#059669",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sasaki_Anime_Infobox.png/revision/latest/scale-to-width-down/305?cb=20211205140441",
     "quote": "My triceratops frill transforms into a helicopter rotor!",
-    "power": 472,
+    "power": 679,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
   {
     "id": 75,
-    "name": "Sakazuki (Akainu)",
-    "japaneseName": "サカズキ（赤犬）",
-    "title": "Fleet Admiral Akainu",
-    "bounty": 4000000000,
-    "bountyFormatted": "฿ 4,000,000,000",
-    "tier": "EX",
-    "faction": "Marines",
-    "role": "Commander",
-    "devilFruit": "Magu Magu no Mi",
-    "fruitType": "Logia",
-    "haki": "Conqueror's",
-    "stats": {
-      "attack": 1120,
-      "defense": 1040,
-      "hakiPower": 960,
-      "skill": 880,
-      "total": 4000
-    },
-    "color": "#b91c1c",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sakazuki_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/239?cb=20220829052511",
-    "quote": "Absolute Justice will eradicate evil from the face of this sea!",
-    "power": 4000,
-    "basePrice": 30000000,
-    "basePriceFormatted": "฿ 30M"
-  },
-  {
-    "id": 76,
     "name": "Charlotte Linlin (Big Mom)",
     "japaneseName": "シャーロット・リンリン",
     "title": "Emperor Big Mom",
@@ -2041,21 +1941,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 1229,
-      "defense": 1141,
-      "hakiPower": 1053,
-      "skill": 965,
-      "total": 4388
+      "attack": 990,
+      "strength": 1000,
+      "defense": 990,
+      "total": 993
     },
     "color": "#ec4899",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Charlotte_Linlin_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20180423150804",
     "quote": "Life or treat?! Hand over fifty years of your lifespan!",
-    "power": 4388,
-    "basePrice": 30000000,
-    "basePriceFormatted": "฿ 30M"
+    "power": 993,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
-    "id": 77,
+    "id": 76,
     "name": "Charlotte Pudding",
     "japaneseName": "シャーロット・プリン",
     "title": "Three-Eye Tribe Princess",
@@ -2068,21 +1967,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "None",
     "stats": {
-      "attack": 42,
-      "defense": 39,
-      "hakiPower": 36,
-      "skill": 33,
-      "total": 150
+      "attack": 210,
+      "strength": 170,
+      "defense": 250,
+      "total": 210
     },
     "color": "#f59e0b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/60/Charlotte_Pudding_Anime_Infobox.png/revision/latest/scale-to-width-down/208?cb=20250106015531",
     "quote": "Sanji... thank you for saying my eye is beautiful.",
-    "power": 150,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 210,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 78,
+    "id": 77,
     "name": "Charlotte Brulee",
     "japaneseName": "シャーロット・ブリュレ",
     "title": "Mirror Witch",
@@ -2095,75 +1993,72 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "None",
     "stats": {
-      "attack": 34,
-      "defense": 31,
-      "hakiPower": 29,
-      "skill": 26,
-      "total": 120
+      "attack": 365,
+      "strength": 320,
+      "defense": 430,
+      "total": 371
     },
     "color": "#6b7280",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/d9/Charlotte_Br%C3%BBl%C3%A9e_Anime_Infobox.png/revision/latest/scale-to-width-down/209?cb=20170611174235",
     "quote": "Wiwiwi! Step into the Mirror World if you dare!",
-    "power": 120,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 371,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 79,
+    "id": 78,
     "name": "Charlotte Cracker",
     "japaneseName": "シャーロット・クラッカー",
     "title": "Thousand Arms Cracker",
     "bounty": 860000000,
     "bountyFormatted": "฿ 860,000,000",
-    "tier": "SR",
+    "tier": "SSR",
     "faction": "Big Mom Pirates",
     "role": "Swordsman",
     "devilFruit": "Bisu Bisu no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 241,
-      "defense": 224,
-      "hakiPower": 206,
-      "skill": 189,
-      "total": 860
+      "attack": 825,
+      "strength": 850,
+      "defense": 810,
+      "total": 828
     },
     "color": "#ca8a04",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/64/Charlotte_Cracker_Anime_Infobox.png/revision/latest/scale-to-width-down/238?cb=20170730021804",
     "quote": "I can produce infinite biscuit soldiers! You will collapse from exhaustion!",
-    "power": 860,
-    "basePrice": 5000000,
-    "basePriceFormatted": "฿ 5M"
+    "power": 828,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
-    "id": 80,
+    "id": 79,
     "name": "Charlotte Smoothie",
     "japaneseName": "シャーロット・スムージー",
     "title": "Sweet 3 General Smoothie",
     "bounty": 932000000,
     "bountyFormatted": "฿ 932,000,000",
-    "tier": "SR",
+    "tier": "SSR",
     "faction": "Big Mom Pirates",
     "role": "Swordsman",
     "devilFruit": "Shibo Shibo no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 261,
-      "defense": 242,
-      "hakiPower": 224,
-      "skill": 205,
-      "total": 932
+      "attack": 810,
+      "strength": 850,
+      "defense": 790,
+      "total": 816
     },
     "color": "#a855f7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/c5/Charlotte_Smoothie_Anime_Infobox.png/revision/latest/scale-to-width-down/171?cb=20180423150946",
     "quote": "I will squeeze every drop of strength out of you.",
-    "power": 932,
-    "basePrice": 5000000,
-    "basePriceFormatted": "฿ 5M"
+    "power": 816,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
   },
   {
-    "id": 81,
+    "id": 80,
     "name": "Charlotte Perospero",
     "japaneseName": "シャーロット・ペロスペロー",
     "title": "Candy Minister",
@@ -2176,21 +2071,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 196,
-      "defense": 182,
-      "hakiPower": 168,
-      "skill": 154,
-      "total": 700
+      "attack": 690,
+      "strength": 720,
+      "defense": 700,
+      "total": 702
     },
     "color": "#ec4899",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Charlotte_Perospero_Anime_Infobox.png/revision/latest/scale-to-width-down/309?cb=20211101122146",
     "quote": "Perorin! Candy Maiden trap!",
-    "power": 700,
+    "power": 702,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 82,
+    "id": 81,
     "name": "Charlotte Oven",
     "japaneseName": "シャーロット・オーブン",
     "title": "Minister of Browned Food",
@@ -2203,21 +2097,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "hakiPower": 72,
-      "skill": 66,
-      "total": 300
+      "attack": 665,
+      "strength": 710,
+      "defense": 640,
+      "total": 671
     },
     "color": "#ea580c",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/f0/Charlotte_Oven_Anime_Infobox.png/revision/latest/scale-to-width-down/209?cb=20181028111159",
     "quote": "I can boil the ocean with my bare hands!",
-    "power": 300,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 671,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 83,
+    "id": 82,
     "name": "Charlotte Daifuku",
     "japaneseName": "シャーロット・ダイフク",
     "title": "Minister of Crispy Food",
@@ -2230,21 +2123,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "hakiPower": 72,
-      "skill": 66,
-      "total": 300
+      "attack": 670,
+      "strength": 720,
+      "defense": 650,
+      "total": 679
     },
     "color": "#3b82f6",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/cd/Charlotte_Daifuku_Anime_Infobox.png/revision/latest/scale-to-width-down/318?cb=20230215154338",
     "quote": "Rub my belly and my genie shall slice you in half!",
-    "power": 300,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 679,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 84,
+    "id": 83,
     "name": "Charlotte Flampe",
     "japaneseName": "シャーロット・フランペ",
     "title": "President of Katakuri Fan Club",
@@ -2257,21 +2149,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 14,
-      "defense": 13,
-      "hakiPower": 12,
-      "skill": 11,
-      "total": 50
+      "attack": 180,
+      "strength": 130,
+      "defense": 220,
+      "total": 177
     },
     "color": "#f43f5e",
     "image": "https://static.wikia.nocookie.net/onepiece/images/9/91/Charlotte_Flampe_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20190203105539",
     "quote": "My silent numbing needle never fails to hit the mark!",
-    "power": 50,
+    "power": 177,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 85,
+    "id": 84,
     "name": "Pedro",
     "japaneseName": "ペドロ",
     "title": "Captain Pedro of the Tree",
@@ -2284,21 +2175,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 107,
-      "defense": 99,
-      "hakiPower": 92,
-      "skill": 84,
-      "total": 382
+      "attack": 700,
+      "strength": 750,
+      "defense": 650,
+      "total": 700
     },
     "color": "#ca8a04",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/c8/Pedro_Anime_Infobox.png/revision/latest/scale-to-width-down/322?cb=20170423080015",
     "quote": "I believe Luffy and the Straw Hats are the ones who will bring the Dawn of the World!",
-    "power": 382,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 700,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 86,
+    "id": 85,
     "name": "Carrot",
     "japaneseName": "キャロット",
     "title": "Sulong Rabbit Warrior",
@@ -2311,102 +2201,98 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Observation",
     "stats": {
-      "attack": 70,
-      "defense": 65,
-      "hakiPower": 60,
-      "skill": 55,
-      "total": 250
+      "attack": 530,
+      "strength": 560,
+      "defense": 520,
+      "total": 536
     },
     "color": "#eab308",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/e2/Carrot_Anime_Infobox.png/revision/latest/scale-to-width-down/150?cb=20180826142459",
     "quote": "Garchu! Look at the full moon... Sulong form!",
-    "power": 250,
+    "power": 536,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 87,
+    "id": 86,
     "name": "Wanda",
     "japaneseName": "ワンダ",
     "title": "King's Birds Warrior",
     "bounty": 150000000,
     "bountyFormatted": "฿ 150,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Mink Tribe",
     "role": "Swordsman",
     "devilFruit": "None (Electro)",
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 42,
-      "defense": 39,
-      "hakiPower": 36,
-      "skill": 33,
-      "total": 150
+      "attack": 485,
+      "strength": 510,
+      "defense": 500,
+      "total": 497
     },
     "color": "#f97316",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/75/Wanda_Anime_Infobox.png/revision/latest/scale-to-width-down/207?cb=20160829034647",
     "quote": "The Mink Tribe never betrays our friends!",
-    "power": 150,
+    "power": 497,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 88,
+    "id": 87,
     "name": "Inuarashi",
     "japaneseName": "イヌアラシ",
     "title": "Duke Inuarashi (Ruler of Day)",
     "bounty": 600000000,
     "bountyFormatted": "฿ 600,000,000",
-    "tier": "SR",
+    "tier": "SSR",
     "faction": "Mink Tribe",
     "role": "Swordsman",
     "devilFruit": "None (Sulong Electro)",
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 168,
-      "defense": 156,
-      "hakiPower": 144,
-      "skill": 132,
-      "total": 600
+      "attack": 770,
+      "strength": 810,
+      "defense": 730,
+      "total": 770
     },
     "color": "#d97706",
     "image": "https://static.wikia.nocookie.net/onepiece/images/9/9f/Inuarashi_Anime_Infobox.png/revision/latest/scale-to-width-down/253?cb=20250516022630",
     "quote": "Even if our country is ruined, we would never sell out a comrade!",
-    "power": 600,
+    "power": 770,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 89,
+    "id": 88,
     "name": "Nekomamushi",
     "japaneseName": "ネコマムシ",
     "title": "Master Nekomamushi (Ruler of Night)",
     "bounty": 600000000,
     "bountyFormatted": "฿ 600,000,000",
-    "tier": "SR",
+    "tier": "SSR",
     "faction": "Mink Tribe",
     "role": "Vanguard",
     "devilFruit": "None (Sulong Electro)",
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 168,
-      "defense": 156,
-      "hakiPower": 144,
-      "skill": 132,
-      "total": 600
+      "attack": 770,
+      "strength": 810,
+      "defense": 730,
+      "total": 770
     },
     "color": "#eab308",
     "image": "https://static.wikia.nocookie.net/onepiece/images/a/a2/Nekomamushi_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20220419121421",
     "quote": "Goronyanya! We are waiting for the Dawn of the World!",
-    "power": 600,
+    "power": 770,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 90,
+    "id": 89,
     "name": "Vinsmoke Reiju",
     "japaneseName": "ヴィンスモーク・レイジュ",
     "title": "Poison Pink",
@@ -2419,21 +2305,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "hakiPower": 72,
-      "skill": 66,
-      "total": 300
+      "attack": 650,
+      "strength": 680,
+      "defense": 630,
+      "total": 653
     },
     "color": "#ec4899",
     "image": "https://static.wikia.nocookie.net/onepiece/images/a/a3/Vinsmoke_Reiju_Anime_Infobox.png/revision/latest/scale-to-width-down/167?cb=20231211104854",
     "quote": "Sanji... the ocean is vast. One day, you will find people as kind as you.",
-    "power": 300,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 653,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 91,
+    "id": 90,
     "name": "Vinsmoke Judge",
     "japaneseName": "ヴィンスモーク・ジャッジ",
     "title": "Garuda / King of Germa",
@@ -2446,21 +2331,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 126,
-      "defense": 117,
-      "hakiPower": 108,
-      "skill": 99,
-      "total": 450
+      "attack": 610,
+      "strength": 640,
+      "defense": 650,
+      "total": 631
     },
     "color": "#eab308",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/6f/Vinsmoke_Judge_Anime_Infobox.png/revision/latest/scale-to-width-down/250?cb=20170626124958",
     "quote": "Science is the supreme power that conquers the North Blue!",
-    "power": 450,
+    "power": 631,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 92,
+    "id": 91,
     "name": "Vinsmoke Ichiji",
     "japaneseName": "ヴィンスモーク・イチジ",
     "title": "Sparking Red",
@@ -2473,21 +2357,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "hakiPower": 72,
-      "skill": 66,
-      "total": 300
+      "attack": 635,
+      "strength": 680,
+      "defense": 630,
+      "total": 647
     },
     "color": "#dc2626",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Vinsmoke_Ichiji_Anime_Infobox.png/revision/latest/scale-to-width-down/219?cb=20180625103724",
     "quote": "Emotions are useless junk that only slow down warriors.",
-    "power": 300,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 647,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 93,
+    "id": 92,
     "name": "Vinsmoke Niji",
     "japaneseName": "ヴィンスモーク・ニジ",
     "title": "Dengeki Blue",
@@ -2500,21 +2383,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "hakiPower": 72,
-      "skill": 66,
-      "total": 300
+      "attack": 625,
+      "strength": 660,
+      "defense": 610,
+      "total": 631
     },
     "color": "#2563eb",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/d6/Vinsmoke_Niji_Anime_Infobox.png/revision/latest/scale-to-width-down/294?cb=20180618054009",
     "quote": "High-speed lightning strikes!",
-    "power": 300,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 631,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 94,
+    "id": 93,
     "name": "Vinsmoke Yonji",
     "japaneseName": "ヴィンスモーク・ヨンジ",
     "title": "Winch Green",
@@ -2527,102 +2409,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "hakiPower": 72,
-      "skill": 66,
-      "total": 300
+      "attack": 610,
+      "strength": 620,
+      "defense": 680,
+      "total": 634
     },
     "color": "#16a34a",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/e7/Vinsmoke_Yonji_Anime_Infobox.png/revision/latest/scale-to-width-down/212?cb=20170416175856",
     "quote": "I'll crush you with my hydraulic grip!",
-    "power": 300,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 634,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 95,
-    "name": "Vinsmoke Sora",
-    "japaneseName": "ヴィンスモーク・ソラ",
-    "title": "Queen of Germa",
-    "bounty": 50000000,
-    "bountyFormatted": "฿ 50,000,000",
-    "tier": "R",
-    "faction": "Germa 66",
-    "role": "Doctor",
-    "devilFruit": "None",
-    "fruitType": "None",
-    "haki": "None",
-    "stats": {
-      "attack": 14,
-      "defense": 13,
-      "hakiPower": 12,
-      "skill": 11,
-      "total": 50
-    },
-    "color": "#fde047",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/4/4c/Vinsmoke_Sora_Anime_Infobox.png/revision/latest/scale-to-width-down/336?cb=20190130220840",
-    "quote": "Sanji was born with a heart... the kindest boy in the world.",
-    "power": 50,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
-  },
-  {
-    "id": 96,
-    "name": "Kuzan (Aokiji)",
-    "japaneseName": "クザン（青雉）",
-    "title": "Former Admiral Aokiji",
-    "bounty": 3500000000,
-    "bountyFormatted": "฿ 3,500,000,000",
-    "tier": "EX",
-    "faction": "Blackbeard Pirates",
-    "role": "Commander",
-    "devilFruit": "Hie Hie no Mi",
-    "fruitType": "Logia",
-    "haki": "Armament",
-    "stats": {
-      "attack": 980,
-      "defense": 910,
-      "hakiPower": 840,
-      "skill": 770,
-      "total": 3500
-    },
-    "color": "#0284c7",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d6/Kuzan_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/326?cb=20240811021341",
-    "quote": "Ice Age! The thing called 'Justice' changes its shape depending on where you stand.",
-    "power": 3500,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
-  },
-  {
-    "id": 97,
-    "name": "Borsalino (Kizaru)",
-    "japaneseName": "ボルサリーノ（黄猿）",
-    "title": "Marine Admiral Kizaru",
-    "bounty": 3500000000,
-    "bountyFormatted": "฿ 3,500,000,000",
-    "tier": "EX",
-    "faction": "Marines",
-    "role": "Commander",
-    "devilFruit": "Pika Pika no Mi",
-    "fruitType": "Logia",
-    "haki": "Armament",
-    "stats": {
-      "attack": 980,
-      "defense": 910,
-      "hakiPower": 840,
-      "skill": 770,
-      "total": 3500
-    },
-    "color": "#eab308",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/1/14/Borsalino_Anime_Infobox.png/revision/latest/scale-to-width-down/198?cb=20190603023753",
-    "quote": "Have you ever been kicked at the speed of light?",
-    "power": 3500,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
-  },
-  {
-    "id": 98,
+    "id": 94,
     "name": "Absalom",
     "japaneseName": "アブサロム",
     "title": "Graveyard Absalom",
@@ -2635,21 +2435,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "None",
     "stats": {
-      "attack": 15,
-      "defense": 14,
-      "hakiPower": 13,
-      "skill": 12,
-      "total": 54
+      "attack": 410,
+      "strength": 430,
+      "defense": 450,
+      "total": 428
     },
     "color": "#64748b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/5/56/Absalom_Anime_Infobox.png/revision/latest/scale-to-width-down/341?cb=20230101154942",
     "quote": "You cannot hit what you cannot see!",
-    "power": 54,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 428,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 99,
+    "id": 95,
     "name": "Hogback",
     "japaneseName": "ホグバック",
     "title": "Doctor Hogback",
@@ -2662,21 +2461,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 8,
-      "defense": 8,
-      "hakiPower": 7,
-      "skill": 7,
-      "total": 30
+      "attack": 260,
+      "strength": 180,
+      "defense": 350,
+      "total": 263
     },
     "color": "#7c3aed",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Hogback_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20240720150902",
     "quote": "Fosfosfos! I can reanimate any corpse into the ultimate zombie!",
-    "power": 30,
+    "power": 263,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 100,
+    "id": 96,
     "name": "Caesar Clown",
     "japaneseName": "シーザー・クラウン",
     "title": "Gangster Gastino",
@@ -2689,21 +2487,20 @@ export const CHARACTERS = [
     "fruitType": "Logia",
     "haki": "Armament",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "hakiPower": 72,
-      "skill": 66,
-      "total": 300
+      "attack": 455,
+      "strength": 500,
+      "defense": 470,
+      "total": 473
     },
     "color": "#06b6d4",
     "image": "https://static.wikia.nocookie.net/onepiece/images/a/a6/Caesar_Clown_Anime_Infobox.png/revision/latest/scale-to-width-down/326?cb=20221101011307",
     "quote": "Shurorororo! I am the greatest scientific genius of this era!",
-    "power": 300,
+    "power": 473,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 101,
+    "id": 97,
     "name": "Vergo",
     "japaneseName": "ヴェルゴ",
     "title": "Demon Bamboo Vergo",
@@ -2716,21 +2513,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 78,
-      "defense": 73,
-      "hakiPower": 67,
-      "skill": 62,
-      "total": 280
+      "attack": 665,
+      "strength": 710,
+      "defense": 690,
+      "total": 686
     },
     "color": "#1e293b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/cf/Vergo_Anime_Infobox.png/revision/latest/scale-to-width-down/176?cb=20230101232239",
     "quote": "Address me with respect, Law. It's Vergo-san!",
-    "power": 280,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 686,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 102,
+    "id": 98,
     "name": "Monet",
     "japaneseName": "モネ",
     "title": "Snow Woman Monet",
@@ -2743,156 +2539,150 @@ export const CHARACTERS = [
     "fruitType": "Logia",
     "haki": "Observation",
     "stats": {
-      "attack": 34,
-      "defense": 31,
-      "hakiPower": 29,
-      "skill": 26,
-      "total": 120
+      "attack": 430,
+      "strength": 470,
+      "defense": 430,
+      "total": 442
     },
     "color": "#22c55e",
     "image": "https://static.wikia.nocookie.net/onepiece/images/9/98/Monet_Anime_Infobox.png/revision/latest/scale-to-width-down/257?cb=20140616000310",
     "quote": "Young master Doflamingo will be the man who becomes the Pirate King!",
-    "power": 120,
+    "power": 442,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 103,
+    "id": 99,
     "name": "Baby 5",
     "japaneseName": "ベビー5",
     "title": "Weapons Girl Baby 5",
     "bounty": 160000000,
     "bountyFormatted": "฿ 160,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Donquixote Family",
     "role": "Sniper",
     "devilFruit": "Buki Buki no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 45,
-      "defense": 42,
-      "hakiPower": 38,
-      "skill": 35,
-      "total": 160
+      "attack": 505,
+      "strength": 560,
+      "defense": 580,
+      "total": 544
     },
     "color": "#be185d",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Baby_5_Anime_Infobox.png/revision/latest/scale-to-width-down/173?cb=20221011013323",
     "quote": "Do you need me?! Then I will transform into whatever weapon you desire!",
-    "power": 160,
+    "power": 544,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 104,
+    "id": 100,
     "name": "Trebol",
     "japaneseName": "トレーボル",
     "title": "Trebol of the Club Army",
     "bounty": 99000000,
     "bountyFormatted": "฿ 99,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Donquixote Family",
     "role": "Tactician",
     "devilFruit": "Beta Beta no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 28,
-      "defense": 26,
-      "hakiPower": 24,
-      "skill": 22,
-      "total": 99
+      "attack": 500,
+      "strength": 540,
+      "defense": 520,
+      "total": 518
     },
     "color": "#65a30d",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/f5/Trebol_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20221117040446",
     "quote": "Behehehe! Doffy has the disposition of a King!",
-    "power": 99,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 518,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 105,
+    "id": 101,
     "name": "Diamante",
     "japaneseName": "ディアマンテ",
     "title": "Hero of the Colosseum",
     "bounty": 99000000,
     "bountyFormatted": "฿ 99,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Donquixote Family",
     "role": "Swordsman",
     "devilFruit": "Hira Hira no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 28,
-      "defense": 26,
-      "hakiPower": 24,
-      "skill": 22,
-      "total": 99
+      "attack": 625,
+      "strength": 650,
+      "defense": 610,
+      "total": 628
     },
     "color": "#ea580c",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/72/Diamante_Anime_Infobox.png/revision/latest/scale-to-width-down/308?cb=20151011043134",
     "quote": "Are you saying I'm a genius? Well... if you insist that much, maybe I am!",
-    "power": 99,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 628,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 106,
+    "id": 102,
     "name": "Pica",
     "japaneseName": "ピーカ",
     "title": "Pica of the Spade Army",
     "bounty": 99000000,
     "bountyFormatted": "฿ 99,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Donquixote Family",
     "role": "Vanguard",
     "devilFruit": "Ishi Ishi no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 28,
-      "defense": 26,
-      "hakiPower": 24,
-      "skill": 22,
-      "total": 99
+      "attack": 690,
+      "strength": 700,
+      "defense": 790,
+      "total": 723
     },
     "color": "#78716c",
     "image": "https://static.wikia.nocookie.net/onepiece/images/a/a4/Pica_Anime_Infobox.png/revision/latest/scale-to-width-down/372?cb=20221117040111",
     "quote": "Anyone who laughs at my voice will be crushed beneath mountain stone!",
-    "power": 99,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 723,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 107,
+    "id": 103,
     "name": "Senor Pink",
     "japaneseName": "セニョール・ピンク",
     "title": "The Hard-Boiled Man",
     "bounty": 58000000,
     "bountyFormatted": "฿ 58,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Donquixote Family",
     "role": "Fighter",
     "devilFruit": "Sui Sui no Mi",
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 16,
-      "defense": 15,
-      "hakiPower": 14,
-      "skill": 13,
-      "total": 58
+      "attack": 520,
+      "strength": 550,
+      "defense": 560,
+      "total": 541
     },
     "color": "#0284c7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/48/Senor_Pink_Anime_Infobox.png/revision/latest/scale-to-width-down/344?cb=20241014120619",
     "quote": "If we meet again, let's share a drink and talk about Russian.",
-    "power": 58,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 541,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 108,
+    "id": 104,
     "name": "Fisher Tiger",
     "japaneseName": "フィッシャー・タイガー",
     "title": "Founder of Sun Pirates",
@@ -2905,48 +2695,46 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 64,
-      "defense": 60,
-      "hakiPower": 55,
-      "skill": 51,
-      "total": 230
+      "attack": 715,
+      "strength": 750,
+      "defense": 680,
+      "total": 715
     },
     "color": "#dc2626",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/c5/Fisher_Tiger_Anime_Infobox.png/revision/latest/scale-to-width-down/322?cb=20230214162116",
     "quote": "Do not pass down hatred! Free all slaves regardless of their race!",
-    "power": 230,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 715,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 109,
+    "id": 105,
     "name": "Arlong",
     "japaneseName": "アーロン",
     "title": "Saw-Tooth Arlong",
     "bounty": 20000000,
     "bountyFormatted": "฿ 20,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Arlong Pirates",
     "role": "Captain",
     "devilFruit": "None (Shark Fishman)",
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 6,
-      "defense": 5,
-      "hakiPower": 5,
-      "skill": 4,
-      "total": 20
+      "attack": 480,
+      "strength": 520,
+      "defense": 500,
+      "total": 498
     },
     "color": "#0284c7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/0/01/Arlong_Anime_Infobox.png/revision/latest/scale-to-width-down/302?cb=20230403145629",
     "quote": "Fishmen are the supreme race chosen by nature!",
-    "power": 20,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 498,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 110,
+    "id": 106,
     "name": "Hachi (Hatchan)",
     "japaneseName": "はっちゃん",
     "title": "Six-Sword Hachi",
@@ -2959,21 +2747,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 2,
-      "defense": 2,
-      "hakiPower": 2,
-      "skill": 2,
-      "total": 8
+      "attack": 325,
+      "strength": 350,
+      "defense": 320,
+      "total": 331
     },
     "color": "#ea580c",
     "image": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Hatchan_Anime_Infobox.png/revision/latest/scale-to-width-down/242?cb=20221003174139",
     "quote": "Takoyaki for everyone! Nuuuu!",
-    "power": 8,
+    "power": 331,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 111,
+    "id": 107,
     "name": "Kuroobi",
     "japaneseName": "クロオビ",
     "title": "Fishman Karate 40-Dan",
@@ -2986,21 +2773,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 3,
-      "defense": 2,
-      "hakiPower": 2,
-      "skill": 2,
-      "total": 9
+      "attack": 350,
+      "strength": 380,
+      "defense": 340,
+      "total": 356
     },
     "color": "#1e293b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/1/17/Kuroobi_Anime_Infobox.png/revision/latest/scale-to-width-down/257?cb=20121220133817",
     "quote": "True Fishman Karate reigns supreme in water!",
-    "power": 9,
+    "power": 356,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 112,
+    "id": 108,
     "name": "Chew",
     "japaneseName": "チュウ",
     "title": "Water Gun Chew",
@@ -3013,21 +2799,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 2,
-      "defense": 2,
-      "hakiPower": 1,
-      "skill": 1,
-      "total": 6
+      "attack": 285,
+      "strength": 300,
+      "defense": 270,
+      "total": 285
     },
     "color": "#0369a1",
     "image": "https://static.wikia.nocookie.net/onepiece/images/0/05/Chew_Anime_Infobox.png/revision/latest/scale-to-width-down/190?cb=20240518182217",
     "quote": "Water bullet sniper shots from long distance!",
-    "power": 6,
+    "power": 285,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 113,
+    "id": 109,
     "name": "Don Krieg",
     "japaneseName": "ドン・クリーク",
     "title": "Foul Play Krieg",
@@ -3040,21 +2825,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 5,
-      "defense": 4,
-      "hakiPower": 4,
-      "skill": 4,
-      "total": 17
+      "attack": 355,
+      "strength": 360,
+      "defense": 500,
+      "total": 400
     },
     "color": "#ca8a04",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/bb/Krieg_Anime_Infobox.png/revision/latest/scale-to-width-down/319?cb=20230123170612",
     "quote": "I am the strongest man in East Blue! Weapons win wars!",
-    "power": 17,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 400,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 114,
+    "id": 110,
     "name": "Gin",
     "japaneseName": "ギン",
     "title": "Man-Demon Gin",
@@ -3067,21 +2851,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 3,
-      "defense": 3,
-      "hakiPower": 3,
-      "skill": 3,
-      "total": 12
+      "attack": 405,
+      "strength": 430,
+      "defense": 390,
+      "total": 408
     },
     "color": "#64748b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/49/Gin_Anime_Infobox.png/revision/latest/scale-to-width-down/347?cb=20220920031419",
     "quote": "Sanji-san... that was the most delicious meal of my life.",
-    "power": 12,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 408,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 115,
+    "id": 111,
     "name": "Kuro",
     "japaneseName": "クロ",
     "title": "Captain Kuro of a Hundred Plans",
@@ -3094,21 +2877,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 4,
-      "defense": 4,
-      "hakiPower": 4,
-      "skill": 4,
-      "total": 16
+      "attack": 425,
+      "strength": 480,
+      "defense": 350,
+      "total": 419
     },
     "color": "#18181b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Kuro_Anime_Infobox.png/revision/latest/scale-to-width-down/252?cb=20231006042805",
     "quote": "My plans are flawless. Shakushi slashes everything in its path.",
-    "power": 16,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 419,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 116,
+    "id": 112,
     "name": "Jango",
     "japaneseName": "ジャンゴ",
     "title": "1-2 Jango",
@@ -3121,21 +2903,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 3,
-      "defense": 2,
-      "hakiPower": 2,
-      "skill": 2,
-      "total": 9
+      "attack": 255,
+      "strength": 220,
+      "defense": 300,
+      "total": 258
     },
     "color": "#e11d48",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/de/Jango_Anime_Infobox.png/revision/latest/scale-to-width-down/253?cb=20241006021207",
     "quote": "1, 2, Jango! Fall asleep!",
-    "power": 9,
+    "power": 258,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 117,
+    "id": 113,
     "name": "Fullbody",
     "japaneseName": "フルボディ",
     "title": "Double Iron Fist Fullbody",
@@ -3148,21 +2929,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 2,
-      "defense": 2,
-      "hakiPower": 2,
-      "skill": 2,
-      "total": 8
+      "attack": 180,
+      "strength": 170,
+      "defense": 230,
+      "total": 192
     },
     "color": "#991b1b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/9/96/Fullbody_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20230527233610",
     "quote": "Taste the knuckle iron of justice!",
-    "power": 8,
+    "power": 192,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 118,
+    "id": 114,
     "name": "Alvida",
     "japaneseName": "アルビダ",
     "title": "Iron Mace Alvida",
@@ -3175,21 +2955,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "None",
     "stats": {
-      "attack": 1,
-      "defense": 1,
-      "hakiPower": 1,
-      "skill": 1,
-      "total": 5
+      "attack": 120,
+      "strength": 100,
+      "defense": 180,
+      "total": 132
     },
     "color": "#f43f5e",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/cd/Alvida_Anime_Infobox.png/revision/latest/scale-to-width-down/231?cb=20221116234952",
     "quote": "Who is the most beautiful woman across all the seas?!",
-    "power": 5,
+    "power": 132,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 119,
+    "id": 115,
     "name": "Wapol",
     "japaneseName": "ワポル",
     "title": "Tin-Plate Wapol",
@@ -3202,21 +2981,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "None",
     "stats": {
-      "attack": 8,
-      "defense": 8,
-      "hakiPower": 7,
-      "skill": 7,
-      "total": 30
+      "attack": 145,
+      "strength": 120,
+      "defense": 300,
+      "total": 184
     },
     "color": "#3b82f6",
     "image": "https://static.wikia.nocookie.net/onepiece/images/3/33/Wapol_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/358?cb=20190519090502",
     "quote": "Munch-munch factory! I eat weapons to become a war machine!",
-    "power": 30,
+    "power": 184,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 120,
+    "id": 116,
     "name": "Nefertari Vivi",
     "japaneseName": "ネフェルタリ・ビビ",
     "title": "Princess of Alabasta / Straw Hat Member",
@@ -3229,21 +3007,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 28,
-      "defense": 26,
-      "hakiPower": 24,
-      "skill": 22,
-      "total": 100
+      "attack": 225,
+      "strength": 210,
+      "defense": 240,
+      "total": 225
     },
     "color": "#38bdf8",
     "image": "https://static.wikia.nocookie.net/onepiece/images/0/09/Nefertari_Vivi_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/146?cb=20190505023647",
     "quote": "If we ever meet again... will you call me your nakama once more?!",
-    "power": 100,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 225,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 121,
+    "id": 117,
     "name": "Nefertari Cobra",
     "japaneseName": "ネフェルタリ・コブラ",
     "title": "King of Alabasta",
@@ -3256,183 +3033,46 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 14,
-      "defense": 13,
-      "hakiPower": 12,
-      "skill": 11,
-      "total": 50
+      "attack": 125,
+      "strength": 100,
+      "defense": 180,
+      "total": 134
     },
     "color": "#b45309",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7f/Nefertari_Cobra_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/340?cb=20170219154108",
     "quote": "A country is its people! So long as they live, our homeland stands!",
-    "power": 50,
+    "power": 134,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 122,
+    "id": 118,
     "name": "Pell",
     "japaneseName": "ペル",
     "title": "Pell the Falcon / Guardian Deity",
     "bounty": 80000000,
     "bountyFormatted": "฿ 80,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Alabasta",
     "role": "Vanguard",
     "devilFruit": "Tori Tori no Mi, Model: Falcon",
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 22,
-      "defense": 21,
-      "hakiPower": 19,
-      "skill": 18,
-      "total": 80
+      "attack": 435,
+      "strength": 480,
+      "defense": 480,
+      "total": 462
     },
     "color": "#f59e0b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/be/Pell_Anime_Infobox.png/revision/latest/scale-to-width-down/335?cb=20240903112506",
     "quote": "I am the guardian deity of Alabasta! I shall eradicate the kingdom's enemies!",
-    "power": 80,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 462,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 123,
-    "name": "Sengoku the Buddha",
-    "japaneseName": "センゴク",
-    "title": "Former Fleet Admiral Sengoku",
-    "bounty": 3800000000,
-    "bountyFormatted": "฿ 3,800,000,000",
-    "tier": "EX",
-    "faction": "Marines",
-    "role": "Tactician",
-    "devilFruit": "Hito Hito no Mi, Model: Daibutsu",
-    "fruitType": "Zoan",
-    "haki": "Conqueror's",
-    "stats": {
-      "attack": 1064,
-      "defense": 988,
-      "hakiPower": 912,
-      "skill": 836,
-      "total": 3800
-    },
-    "color": "#eab308",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/2/24/Sengoku_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/290?cb=20210208064630",
-    "quote": "Golden Buddha shockwave! Strategic supremacy will always govern warfare!",
-    "power": 3800,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
-  },
-  {
-    "id": 124,
-    "name": "Mr. 3 Galdino",
-    "japaneseName": "ギャルディーノ",
-    "title": "Wax Master Galdino",
-    "bounty": 24000000,
-    "bountyFormatted": "฿ 24,000,000",
-    "tier": "R",
-    "faction": "Cross Guild",
-    "role": "Tactician",
-    "devilFruit": "Doru Doru no Mi (Candle Wax)",
-    "fruitType": "Paramecia",
-    "haki": "None",
-    "stats": {
-      "attack": 7,
-      "defense": 6,
-      "hakiPower": 6,
-      "skill": 5,
-      "total": 24
-    },
-    "color": "#facc15",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/1/13/Galdino_Anime_Infobox.png/revision/latest/scale-to-width-down/310?cb=20221003165116",
-    "quote": "Candle Champion armor! Even execution handcuffs can be replicated in wax!",
-    "power": 24,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
-  },
-  {
-    "id": 125,
-    "name": "Miss Goldenweek",
-    "japaneseName": "ミス・ゴールデンウィーク",
-    "title": "Color Trap Painter",
-    "bounty": 29000000,
-    "bountyFormatted": "฿ 29,000,000",
-    "tier": "R",
-    "faction": "Baroque Works",
-    "role": "Tactician",
-    "devilFruit": "Color Trap (Hypnosis Art)",
-    "fruitType": "None",
-    "haki": "None",
-    "stats": {
-      "attack": 8,
-      "defense": 8,
-      "hakiPower": 7,
-      "skill": 6,
-      "total": 29
-    },
-    "color": "#10b981",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Marianne_Anime_Infobox.png/revision/latest/scale-to-width-down/247?cb=20250115010211",
-    "quote": "Black of Betrayal, Yellow of Laughter... Color Trap controls human nature.",
-    "power": 29,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
-  },
-  {
-    "id": 126,
-    "name": "Mr. 5",
-    "japaneseName": "Mr.5",
-    "title": "Bomb Man",
-    "bounty": 10000000,
-    "bountyFormatted": "฿ 10,000,000",
-    "tier": "R",
-    "faction": "Baroque Works",
-    "role": "Sniper",
-    "devilFruit": "Bomu Bomu no Mi",
-    "fruitType": "Paramecia",
-    "haki": "None",
-    "stats": {
-      "attack": 3,
-      "defense": 3,
-      "hakiPower": 2,
-      "skill": 2,
-      "total": 10
-    },
-    "color": "#b91c1c",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/1/14/Gem_Anime_Infobox.png/revision/latest/scale-to-width-down/261?cb=20221003165534",
-    "quote": "Any breath, any touch, any part of my body is an explosive projectile!",
-    "power": 10,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
-  },
-  {
-    "id": 127,
-    "name": "Miss Valentine",
-    "japaneseName": "ミス・バレンタイン",
-    "title": "Kilogram Woman",
-    "bounty": 7500000,
-    "bountyFormatted": "฿ 7,500,000",
-    "tier": "R",
-    "faction": "Baroque Works",
-    "role": "Assassin",
-    "devilFruit": "Kilo Kilo no Mi",
-    "fruitType": "Paramecia",
-    "haki": "None",
-    "stats": {
-      "attack": 2,
-      "defense": 2,
-      "hakiPower": 2,
-      "skill": 2,
-      "total": 8
-    },
-    "color": "#facc15",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Mikita_Anime_Infobox.png/revision/latest/scale-to-width-down/168?cb=20230417164634",
-    "quote": "10,000 Kilogram Guillotine Press!",
-    "power": 8,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
-  },
-  {
-    "id": 128,
+    "id": 119,
     "name": "Koza",
     "japaneseName": "コーザ",
     "title": "Rebel Leader / Minister of Environment",
@@ -3445,21 +3085,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 7,
-      "defense": 7,
-      "hakiPower": 6,
-      "skill": 6,
-      "total": 25
+      "attack": 270,
+      "strength": 300,
+      "defense": 280,
+      "total": 282
     },
     "color": "#0d9488",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/fa/Koza_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/311?cb=20171228110510",
     "quote": "For the survival of our families, we fight for rain!",
-    "power": 25,
+    "power": 282,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 129,
+    "id": 120,
     "name": "Rebecca",
     "japaneseName": "レベッカ",
     "title": "Undefeated Maiden",
@@ -3472,21 +3111,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Observation",
     "stats": {
-      "attack": 28,
-      "defense": 26,
-      "hakiPower": 24,
-      "skill": 22,
-      "total": 100
+      "attack": 305,
+      "strength": 300,
+      "defense": 340,
+      "total": 314
     },
     "color": "#f43f5e",
     "image": "https://static.wikia.nocookie.net/onepiece/images/f/f6/Rebecca_Anime_Infobox.png/revision/latest/scale-to-width-down/192?cb=20190519094508",
     "quote": "I will win without hurting anyone! Soldier-san taught me everything!",
-    "power": 100,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 314,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 130,
+    "id": 121,
     "name": "Kyros",
     "japaneseName": "キュロス",
     "title": "Thunder Soldier / Legendary Gladiator",
@@ -3499,21 +3137,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 84,
-      "defense": 78,
-      "hakiPower": 72,
-      "skill": 66,
-      "total": 300
+      "attack": 610,
+      "strength": 660,
+      "defense": 590,
+      "total": 619
     },
     "color": "#0284c7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/c4/Kyros_Anime_Infobox.png/revision/latest/scale-to-width-down/183?cb=20221018190117",
     "quote": "Trueno Bastardo! With three thousand consecutive victories, my blade never falters!",
-    "power": 300,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 619,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 131,
+    "id": 122,
     "name": "Riku Doldo III",
     "japaneseName": "リク・ドルド3世",
     "title": "King of Dressrosa",
@@ -3526,21 +3163,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 14,
-      "defense": 13,
-      "hakiPower": 12,
-      "skill": 11,
-      "total": 50
+      "attack": 155,
+      "strength": 130,
+      "defense": 200,
+      "total": 161
     },
     "color": "#ca8a04",
     "image": "https://static.wikia.nocookie.net/onepiece/images/4/48/Riku_Doldo_III_Anime_Infobox.png/revision/latest/scale-to-width-down/210?cb=20230114034249",
     "quote": "Peace purchased through blood and deception is no peace at all.",
-    "power": 50,
+    "power": 161,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 132,
+    "id": 123,
     "name": "Viola",
     "japaneseName": "ヴィオラ",
     "title": "Princess Viola / Violet",
@@ -3553,21 +3189,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Observation",
     "stats": {
-      "attack": 18,
-      "defense": 17,
-      "hakiPower": 16,
-      "skill": 15,
-      "total": 66
+      "attack": 305,
+      "strength": 260,
+      "defense": 420,
+      "total": 326
     },
     "color": "#831843",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Viola_Anime_Infobox.png/revision/latest/scale-to-width-down/250?cb=20221027021751",
     "quote": "My clairvoyant tears pierce straight into the human heart!",
-    "power": 66,
+    "power": 326,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 133,
+    "id": 124,
     "name": "Bartolomeo",
     "japaneseName": "バルトロメオ",
     "title": "Bartolomeo the Cannibal",
@@ -3580,21 +3215,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 56,
-      "defense": 52,
-      "hakiPower": 48,
-      "skill": 44,
-      "total": 200
+      "attack": 640,
+      "strength": 500,
+      "defense": 850,
+      "total": 661
     },
     "color": "#16a34a",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/eb/Bartolomeo_Anime_Infobox.png/revision/latest/scale-to-width-down/176?cb=20221027202808",
     "quote": "Luffy-senpai! Barrier Crash! My love for the Straw Hats is unbreakable!",
-    "power": 200,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 661,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 134,
+    "id": 125,
     "name": "Cavendish",
     "japaneseName": "キャベンディッシュ",
     "title": "White Horse / Hakuba",
@@ -3607,21 +3241,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 92,
-      "defense": 86,
-      "hakiPower": 79,
-      "skill": 73,
-      "total": 330
+      "attack": 690,
+      "strength": 720,
+      "defense": 640,
+      "total": 684
     },
     "color": "#38bdf8",
     "image": "https://static.wikia.nocookie.net/onepiece/images/a/a1/Cavendish_Anime_Infobox.png/revision/latest/scale-to-width-down/206?cb=20140224010824",
     "quote": "Beauty is power! Beware when Hakuba awakens!",
-    "power": 330,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 684,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 135,
+    "id": 126,
     "name": "Don Chinjao",
     "japaneseName": "首領・チンジャオ",
     "title": "Chinjao the Drill",
@@ -3634,21 +3267,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 152,
-      "defense": 141,
-      "hakiPower": 130,
-      "skill": 119,
-      "total": 542
+      "attack": 735,
+      "strength": 790,
+      "defense": 710,
+      "total": 744
     },
     "color": "#059669",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/b0/Chinjao_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20180508221950",
     "quote": "Garp! You took my drill fifty years ago! Hasshoken shockwave!",
-    "power": 542,
+    "power": 744,
     "basePrice": 5000000,
     "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 136,
+    "id": 127,
     "name": "Sai",
     "japaneseName": "サイ",
     "title": "13th Happo Navy Leader",
@@ -3661,21 +3293,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 59,
-      "defense": 55,
-      "hakiPower": 50,
-      "skill": 46,
-      "total": 210
+      "attack": 685,
+      "strength": 730,
+      "defense": 660,
+      "total": 691
     },
     "color": "#0d9488",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/db/Sai_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20230301234122",
     "quote": "My drill kick bent the skull of Don Chinjao! I inherit the Happo Navy!",
-    "power": 210,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 691,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
   },
   {
-    "id": 137,
+    "id": 128,
     "name": "Leo",
     "japaneseName": "レオ",
     "title": "Tontatta Kingdom Warrior",
@@ -3688,21 +3319,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "Armament",
     "stats": {
-      "attack": 18,
-      "defense": 17,
-      "hakiPower": 16,
-      "skill": 15,
-      "total": 66
+      "attack": 430,
+      "strength": 450,
+      "defense": 470,
+      "total": 448
     },
     "color": "#eab308",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/be/Leo_Anime_Infobox.png/revision/latest?cb=20200422024534",
     "quote": "Stitching needle barrage! Don't underestimate Tontatta superhuman strength!",
-    "power": 66,
-    "basePrice": 1000000,
-    "basePriceFormatted": "฿ 1M"
+    "power": 448,
+    "basePrice": 2000000,
+    "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 138,
+    "id": 129,
     "name": "Orlumbus",
     "japaneseName": "オオロンブス",
     "title": "Massacre Ruler",
@@ -3715,75 +3345,72 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 41,
-      "defense": 38,
-      "hakiPower": 36,
-      "skill": 33,
-      "total": 148
+      "attack": 410,
+      "strength": 430,
+      "defense": 520,
+      "total": 449
     },
     "color": "#d97706",
     "image": "https://static.wikia.nocookie.net/onepiece/images/1/1b/Orlumbus_Anime_Infobox.png/revision/latest/scale-to-width-down/193?cb=20141013213403",
     "quote": "Fleet salute bowling throw! Yontamaria armada forward!",
-    "power": 148,
+    "power": 449,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 139,
+    "id": 130,
     "name": "Hajrudin",
     "japaneseName": "ハイルディン",
     "title": "Giant Mercenary Captain",
     "bounty": 166000000,
     "bountyFormatted": "฿ 166,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Straw Hat Grand Fleet",
     "role": "Vanguard",
     "devilFruit": "None (Elbaf Giant Might)",
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 46,
-      "defense": 43,
-      "hakiPower": 40,
-      "skill": 37,
-      "total": 166
+      "attack": 515,
+      "strength": 560,
+      "defense": 620,
+      "total": 560
     },
     "color": "#b45309",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/b8/Hajrudin_Anime_Infobox.png/revision/latest/scale-to-width-down/263?cb=20240319195654",
     "quote": "Gungnir! I will revive the Giant Warrior Pirates of Elbaf under Luffy-senpai!",
-    "power": 166,
+    "power": 560,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 140,
+    "id": 131,
     "name": "Ideo",
     "japaneseName": "イデオ",
     "title": "Destruction Cannon Ideo",
     "bounty": 100000000,
     "bountyFormatted": "฿ 100,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Straw Hat Grand Fleet",
     "role": "Fighter",
     "devilFruit": "None (Longarm Explosive Punches)",
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 28,
-      "defense": 26,
-      "hakiPower": 24,
-      "skill": 22,
-      "total": 100
+      "attack": 455,
+      "strength": 500,
+      "defense": 430,
+      "total": 461
     },
     "color": "#0369a1",
     "image": "https://static.wikia.nocookie.net/onepiece/images/3/30/Ideo_Anime_Infobox.png/revision/latest/scale-to-width-down/161?cb=20140519060612",
     "quote": "Shoulder piston explosive impact! Every punch is dynamite!",
-    "power": 100,
+    "power": 461,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 141,
+    "id": 132,
     "name": "Foxy",
     "japaneseName": "フォクシー",
     "title": "Silver Fox Foxy",
@@ -3796,48 +3423,20 @@ export const CHARACTERS = [
     "fruitType": "Paramecia",
     "haki": "None",
     "stats": {
-      "attack": 7,
-      "defense": 6,
-      "hakiPower": 6,
-      "skill": 5,
-      "total": 24
+      "attack": 185,
+      "strength": 150,
+      "defense": 300,
+      "total": 209
     },
     "color": "#be185d",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7d/Foxy_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/400?cb=20251102162706",
     "quote": "Fehfehfeh! Noro Noro Beam! In Davy Back Fight, I steal your crew!",
-    "power": 24,
+    "power": 209,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 142,
-    "name": "Marco the Phoenix",
-    "japaneseName": "マルコ",
-    "title": "1st Division Commander Marco",
-    "bounty": 1374000000,
-    "bountyFormatted": "฿ 1,374,000,000",
-    "tier": "SSR",
-    "faction": "Whitebeard Pirates",
-    "role": "Doctor",
-    "devilFruit": "Tori Tori no Mi, Model: Phoenix",
-    "fruitType": "Zoan",
-    "haki": "Armament",
-    "stats": {
-      "attack": 385,
-      "defense": 357,
-      "hakiPower": 330,
-      "skill": 302,
-      "total": 1374
-    },
-    "color": "#06b6d4",
-    "image": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Polo_Marco_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/143?cb=20221010015200",
-    "quote": "Blue flames of rebirth! You can't reach the King on your first move, yoi!",
-    "power": 1374,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
-  },
-  {
-    "id": 143,
+    "id": 133,
     "name": "Ryuma",
     "japaneseName": "リューマ",
     "title": "Sword God Ryuma",
@@ -3850,21 +3449,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Conqueror's",
     "stats": {
-      "attack": 980,
-      "defense": 910,
-      "hakiPower": 840,
-      "skill": 770,
-      "total": 3500
+      "attack": 905,
+      "strength": 950,
+      "defense": 850,
+      "total": 902
     },
     "color": "#334155",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/6a/Shimotsuki_Ryuma_Anime_Infobox.png/revision/latest/scale-to-width-down/239?cb=20240121155620",
     "quote": "A dragon once fell to my blade. A swordsman's heart remains forever with his sword.",
-    "power": 3500,
-    "basePrice": 20000000,
-    "basePriceFormatted": "฿ 20M"
+    "power": 902,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
   },
   {
-    "id": 144,
+    "id": 134,
     "name": "Dr. Hiriluk",
     "japaneseName": "Dr.ヒルルク",
     "title": "Quack Doctor of Drum Island",
@@ -3877,21 +3475,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 3,
-      "defense": 3,
-      "hakiPower": 2,
-      "skill": 2,
-      "total": 10
+      "attack": 55,
+      "strength": 50,
+      "defense": 80,
+      "total": 61
     },
     "color": "#f472b6",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/c0/Hiriluk_Anime_Infobox.png/revision/latest/scale-to-width-down/216?cb=20190519083444",
     "quote": "When does a man die? When he is forgotten! A wonderful life!",
-    "power": 10,
+    "power": 61,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 145,
+    "id": 135,
     "name": "Kureha",
     "japaneseName": "Dr.くれは",
     "title": "Doctorine Kureha",
@@ -3904,48 +3501,46 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 11,
-      "defense": 10,
-      "hakiPower": 10,
-      "skill": 9,
-      "total": 40
+      "attack": 105,
+      "strength": 80,
+      "defense": 170,
+      "total": 117
     },
     "color": "#ec4899",
     "image": "https://static.wikia.nocookie.net/onepiece/images/1/1b/Kureha_Anime_Infobox.png/revision/latest/scale-to-width-down/199?cb=20150819163116",
     "quote": "Wanna know the secret to my youth? The Will of D. lives on!",
-    "power": 40,
+    "power": 117,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 146,
+    "id": 136,
     "name": "Laboon",
     "japaneseName": "ラブーン",
     "title": "Island Whale of Twin Capes",
     "bounty": 150000000,
     "bountyFormatted": "฿ 150,000,000",
-    "tier": "R",
+    "tier": "SR",
     "faction": "Straw Hat Pirates",
     "role": "Helmsman",
     "devilFruit": "None (Colossal Island Whale)",
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 42,
-      "defense": 39,
-      "hakiPower": 36,
-      "skill": 33,
-      "total": 150
+      "attack": 500,
+      "strength": 450,
+      "defense": 800,
+      "total": 575
     },
     "color": "#0369a1",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/88/Laboon_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20180508212232",
     "quote": "Singing Binks' Sake waiting at Reverse Mountain for fifty years!",
-    "power": 150,
+    "power": 575,
     "basePrice": 2000000,
     "basePriceFormatted": "฿ 2M"
   },
   {
-    "id": 147,
+    "id": 137,
     "name": "Tom",
     "japaneseName": "トム",
     "title": "Legendary Shipwright Tom",
@@ -3958,21 +3553,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 28,
-      "defense": 26,
-      "hakiPower": 24,
-      "skill": 22,
-      "total": 100
+      "attack": 105,
+      "strength": 100,
+      "defense": 160,
+      "total": 120
     },
     "color": "#ca8a04",
     "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Tom_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20210404151116",
     "quote": "A man must be proud of the ships he builds with a DON!",
-    "power": 100,
-    "basePrice": 2000000,
-    "basePriceFormatted": "฿ 2M"
+    "power": 120,
+    "basePrice": 1000000,
+    "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 148,
+    "id": 138,
     "name": "Iceburg",
     "japaneseName": "アイスバーグ",
     "title": "Mayor of Water 7 / Galley-La President",
@@ -3985,21 +3579,20 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "None",
     "stats": {
-      "attack": 22,
-      "defense": 21,
-      "hakiPower": 19,
-      "skill": 18,
-      "total": 80
+      "attack": 105,
+      "strength": 90,
+      "defense": 150,
+      "total": 114
     },
     "color": "#0284c7",
     "image": "https://static.wikia.nocookie.net/onepiece/images/0/00/Iceburg_Anime_Infobox.png/revision/latest/scale-to-width-down/324?cb=20230620131854",
     "quote": "Water 7 will become a floating city on the sea!",
-    "power": 80,
+    "power": 114,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 149,
+    "id": 139,
     "name": "Paulie",
     "japaneseName": "パウリー",
     "title": "Galley-La Rigging Master",
@@ -4012,60 +3605,308 @@ export const CHARACTERS = [
     "fruitType": "None",
     "haki": "Armament",
     "stats": {
-      "attack": 17,
-      "defense": 16,
-      "hakiPower": 14,
-      "skill": 13,
-      "total": 60
+      "attack": 285,
+      "strength": 300,
+      "defense": 330,
+      "total": 303
     },
     "color": "#ea580c",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/62/Paulie_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/400?cb=20251102160614",
     "quote": "Rope Action: Round Turn! That outfit is far too immodest, woman!",
-    "power": 60,
+    "power": 303,
     "basePrice": 1000000,
     "basePriceFormatted": "฿ 1M"
   },
   {
-    "id": 150,
+    "id": 140,
     "name": "Kaku",
     "japaneseName": "カク",
     "title": "Mountain Wind Kaku / CP0",
     "bounty": 1000000000,
     "bountyFormatted": "฿ 1,000,000,000",
-    "tier": "SSR",
+    "tier": "SR",
     "faction": "Cipher Pol",
     "role": "Swordsman",
     "devilFruit": "Ushi Ushi no Mi, Model: Giraffe (Awakened)",
     "fruitType": "Zoan",
     "haki": "Armament",
     "stats": {
-      "attack": 280,
-      "defense": 260,
-      "hakiPower": 240,
-      "skill": 220,
-      "total": 1000
+      "attack": 665,
+      "strength": 710,
+      "defense": 640,
+      "total": 671
     },
     "color": "#f59e0b",
     "image": "https://static.wikia.nocookie.net/onepiece/images/0/09/Kaku_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/267?cb=20221127204534",
     "quote": "Rankyaku! Giraffes have immense destructive power!",
-    "power": 1000,
-    "basePrice": 10000000,
-    "basePriceFormatted": "฿ 10M"
+    "power": 671,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
+  },
+  {
+    "id": 141,
+    "name": "Shiki",
+    "japaneseName": "シキ",
+    "title": "The Golden Lion",
+    "bounty": 2500000000,
+    "bountyFormatted": "฿ 2,500,000,000",
+    "tier": "EX",
+    "faction": "Rocks Pirates",
+    "role": "Captain",
+    "devilFruit": "Fuwa Fuwa no Mi",
+    "fruitType": "Paramecia",
+    "haki": "Conqueror's",
+    "stats": {
+      "attack": 930,
+      "strength": 960,
+      "defense": 900,
+      "total": 930
+    },
+    "color": "#eab308",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/3/32/Shiki_Anime_Infobox.png/revision/latest/scale-to-width-down/400?cb=20230826192523",
+    "quote": "I'll let you know what true piracy is!",
+    "power": 930,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
+  },
+  {
+    "id": 142,
+    "name": "Marco",
+    "japaneseName": "マルコ",
+    "title": "1st Division Commander Marco",
+    "bounty": 1374000000,
+    "bountyFormatted": "฿ 1,374,000,000",
+    "tier": "EX",
+    "faction": "Whitebeard Pirates",
+    "role": "Doctor",
+    "devilFruit": "Tori Tori no Mi, Model: Phoenix",
+    "fruitType": "Zoan",
+    "haki": "Armament",
+    "stats": {
+      "attack": 900,
+      "strength": 920,
+      "defense": 930,
+      "total": 915
+    },
+    "color": "#06b6d4",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Polo_Marco_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/143?cb=20221010015200",
+    "quote": "Blue flames of rebirth! You can't reach the King on your first move, yoi!",
+    "power": 915,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
+  },
+  {
+    "id": 143,
+    "name": "Vista",
+    "japaneseName": "ビスタ",
+    "title": "Flower Sword Vista",
+    "bounty": 440000000,
+    "bountyFormatted": "฿ 440,000,000",
+    "tier": "SR",
+    "faction": "Whitebeard Pirates",
+    "role": "Swordsman",
+    "devilFruit": "None",
+    "fruitType": "None",
+    "haki": "Armament",
+    "stats": {
+      "attack": 730,
+      "strength": 780,
+      "defense": 700,
+      "total": 736
+    },
+    "color": "#3b82f6",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/7/78/Vista_Anime_Infobox.png/revision/latest/scale-to-width-down/271?cb=20180131180522",
+    "quote": "Only an idiot wouldn't know the name of Dracule Mihawk!",
+    "power": 736,
+    "basePrice": 5000000,
+    "basePriceFormatted": "฿ 5M"
+  },
+  {
+    "id": 144,
+    "name": "Shiryu",
+    "japaneseName": "シリュウ",
+    "title": "Shiryu of the Rain",
+    "bounty": 1100000000,
+    "bountyFormatted": "฿ 1,110,000,000",
+    "tier": "SSR",
+    "faction": "Blackbeard Pirates",
+    "role": "Swordsman",
+    "devilFruit": "Suke Suke no Mi",
+    "fruitType": "Paramecia",
+    "haki": "Armament",
+    "stats": {
+      "attack": 820,
+      "strength": 850,
+      "defense": 780,
+      "total": 817
+    },
+    "color": "#475569",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Shiryu_Anime_Infobox.png/revision/latest/scale-to-width-down/374?cb=20240728020909",
+    "quote": "I was only waiting for a man like you, Teach!",
+    "power": 817,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
+  },
+  {
+    "id": 145,
+    "name": "Kizaru (Borsalino)",
+    "japaneseName": "ボルサリーノ（黄猿）",
+    "title": "Marine Admiral Kizaru",
+    "bounty": 3500000000,
+    "bountyFormatted": "฿ 3,500,000,000",
+    "tier": "EX",
+    "faction": "Marines",
+    "role": "Commander",
+    "devilFruit": "Pika Pika no Mi",
+    "fruitType": "Logia",
+    "haki": "Armament",
+    "stats": {
+      "attack": 900,
+      "strength": 925,
+      "defense": 890,
+      "total": 904
+    },
+    "color": "#eab308",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/1/14/Borsalino_Anime_Infobox.png/revision/latest/scale-to-width-down/198?cb=20190603023753",
+    "quote": "Have you ever been kicked at the speed of light?",
+    "power": 904,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
+  },
+  {
+    "id": 146,
+    "name": "Akainu (Sakazuki)",
+    "japaneseName": "サカズキ（赤犬）",
+    "title": "Fleet Admiral Akainu",
+    "bounty": 4000000000,
+    "bountyFormatted": "฿ 4,000,000,000",
+    "tier": "EX",
+    "faction": "Marines",
+    "role": "Commander",
+    "devilFruit": "Magu Magu no Mi",
+    "fruitType": "Logia",
+    "haki": "Conqueror's",
+    "stats": {
+      "attack": 925,
+      "strength": 960,
+      "defense": 900,
+      "total": 928
+    },
+    "color": "#b91c1c",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sakazuki_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/239?cb=20220829052511",
+    "quote": "Absolute Justice will eradicate evil from the face of this sea!",
+    "power": 928,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
+  },
+  {
+    "id": 147,
+    "name": "Aokiji (Kuzan)",
+    "japaneseName": "クザン（青雉）",
+    "title": "Former Admiral Aokiji",
+    "bounty": 3500000000,
+    "bountyFormatted": "฿ 3,500,000,000",
+    "tier": "EX",
+    "faction": "Blackbeard Pirates",
+    "role": "Commander",
+    "devilFruit": "Hie Hie no Mi",
+    "fruitType": "Logia",
+    "haki": "Armament",
+    "stats": {
+      "attack": 920,
+      "strength": 950,
+      "defense": 900,
+      "total": 923
+    },
+    "color": "#0284c7",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/d/d6/Kuzan_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/326?cb=20240811021341",
+    "quote": "Ice Age! The thing called 'Justice' changes its shape depending on where you stand.",
+    "power": 923,
+    "basePrice": 25000000,
+    "basePriceFormatted": "฿ 25M"
+  },
+  {
+    "id": 148,
+    "name": "Fujitora (Issho)",
+    "japaneseName": "イッショウ（藤虎）",
+    "title": "Marine Admiral Fujitora",
+    "bounty": 3000000000,
+    "bountyFormatted": "฿ 3,000,000,000",
+    "tier": "SSR",
+    "faction": "Marines",
+    "role": "Swordsman",
+    "devilFruit": "Zushi Zushi no Mi",
+    "fruitType": "Paramecia",
+    "haki": "Observation",
+    "stats": {
+      "attack": 875,
+      "strength": 900,
+      "defense": 880,
+      "total": 884
+    },
+    "color": "#8b5cf6",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/e/e8/Issho_Anime_Infobox.png/revision/latest/scale-to-width-down/246?cb=20220718140829",
+    "quote": "Being blind allows one to avoid seeing many of this world's corruptions.",
+    "power": 884,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
+  },
+  {
+    "id": 149,
+    "name": "Sengoku",
+    "japaneseName": "センゴク",
+    "title": "Former Fleet Admiral Sengoku",
+    "bounty": 3800000000,
+    "bountyFormatted": "฿ 3,800,000,000",
+    "tier": "SSR",
+    "faction": "Marines",
+    "role": "Tactician",
+    "devilFruit": "Hito Hito no Mi, Model: Daibutsu",
+    "fruitType": "Zoan",
+    "haki": "Conqueror's",
+    "stats": {
+      "attack": 890,
+      "strength": 920,
+      "defense": 880,
+      "total": 896
+    },
+    "color": "#eab308",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/2/24/Sengoku_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/290?cb=20210208064630",
+    "quote": "Golden Buddha shockwave! Strategic supremacy will always govern warfare!",
+    "power": 896,
+    "basePrice": 15000000,
+    "basePriceFormatted": "฿ 15M"
+  },
+  {
+    "id": 150,
+    "name": "Sentomaru",
+    "japaneseName": "戦桃丸",
+    "title": "Captain of the Science Guard",
+    "bounty": 0,
+    "bountyFormatted": "฿ 0",
+    "tier": "SR",
+    "faction": "Marines",
+    "role": "Commander",
+    "devilFruit": "None",
+    "fruitType": "None",
+    "haki": "Armament",
+    "stats": {
+      "attack": 620,
+      "strength": 640,
+      "defense": 700,
+      "total": 650
+    },
+    "color": "#dc2626",
+    "image": "https://static.wikia.nocookie.net/onepiece/images/9/97/Sentomaru_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/400?cb=20241117020846",
+    "quote": "My guard is the tightest in the world!",
+    "power": 650,
+    "basePrice": 5000000,
   }
 ];
 
-// Map lookup helper by ID
-export const CHARACTERS_MAP = new Map(CHARACTERS.map(c => [c.id, c]));
-
-// Summary statistics helper
 export const ROSTER_STATS = {
   total: CHARACTERS.length,
-  factions: [...new Set(CHARACTERS.map(c => c.faction))],
-  roles: [...new Set(CHARACTERS.map(c => c.role))],
-  tiers: {
-    EX: CHARACTERS.filter(c => c.tier === 'EX').length,
-    SSR: CHARACTERS.filter(c => c.tier === 'SSR').length,
-    SR: CHARACTERS.filter(c => c.tier === 'SR').length,
-    R: CHARACTERS.filter(c => c.tier === 'R').length
-  }
+  factions: [...new Set(CHARACTERS.map(c => c.faction))].sort(),
+  roles: [...new Set(CHARACTERS.map(c => c.role))].sort(),
+  tiers: ['EX', 'SSR', 'SR', 'R']
 };

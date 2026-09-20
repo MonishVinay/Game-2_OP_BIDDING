@@ -11,7 +11,8 @@ import {
   Flame, 
   Tag, 
   Layers,
-  ArrowUpCircle
+  ArrowUpCircle,
+  Users
 } from 'lucide-react';
 import { playBidChime, playTick, playPass } from '../sound';
 
@@ -110,7 +111,7 @@ export default function AuctionTable({
 
         {/* Squad Slots */}
         <div 
-          onClick={onOpenSquad}
+          onClick={() => onOpenSquad && onOpenSquad(playerId)}
           className="bg-slate-950/70 border border-amber-500/20 rounded-lg p-2.5 flex items-center justify-between cursor-pointer hover:border-amber-400/40 transition group"
         >
           <div className="flex items-center gap-2.5">
@@ -151,6 +152,81 @@ export default function AuctionTable({
               {room.currentLot?.basePriceFormatted || `฿ ${((room.currentLot?.basePrice || 1000000) / 1000000)}M`}
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Live Captains & Budgets Roster: Shows everyone's balance in real-time */}
+      <div className="bg-slate-900/90 border border-amber-600/30 rounded-xl p-3 md:p-4 shadow-xl backdrop-blur-md">
+        <div className="flex items-center justify-between mb-2.5 px-1 border-b border-amber-500/20 pb-2">
+          <div className="flex items-center gap-2">
+            <Users className="w-4 h-4 text-amber-400" />
+            <span className="text-xs uppercase font-mono tracking-wider font-bold text-amber-300">
+              PIRATE CAPTAINS & LIVE BUDGETS ({room.players.length})
+            </span>
+          </div>
+          <span className="text-[10px] text-amber-200/60 font-mono hidden sm:inline">
+            Click captain to view drafted crew
+          </span>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5">
+          {room.players.map((p) => {
+            const isYou = p.id === playerId;
+            const isWinning = room.highestBidder?.id === p.id;
+            const full = (p.squad?.length || 0) >= room.settings.squadSize;
+            const passed = p.hasPassed;
+
+            return (
+              <div
+                key={p.id}
+                onClick={() => onOpenSquad && onOpenSquad(p.id)}
+                className={`p-2.5 rounded-lg border transition-all cursor-pointer flex items-center justify-between gap-2 group hover:scale-[1.01] ${
+                  isWinning
+                    ? 'bg-amber-950/70 border-amber-400 shadow-md ring-1 ring-amber-400/50'
+                    : isYou
+                    ? 'bg-slate-950/90 border-amber-500/50 hover:border-amber-400'
+                    : 'bg-slate-950/60 border-slate-800 hover:border-slate-700'
+                }`}
+              >
+                {/* Left: Avatar + Name + Status */}
+                <div className="flex items-center gap-2 min-w-0">
+                  <span className="text-2xl shrink-0 group-hover:scale-110 transition">{p.avatar}</span>
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-1.5">
+                      <span className={`text-xs font-bold truncate ${isYou ? 'text-amber-300' : 'text-white'}`}>
+                        {p.name}
+                      </span>
+                      {isYou && (
+                        <span className="text-[9px] font-mono px-1 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30 shrink-0">
+                          YOU
+                        </span>
+                      )}
+                    </div>
+                    <div className="flex items-center gap-1.5 text-[10px] text-slate-400 mt-0.5">
+                      <span className="font-mono">Crew: <strong className="text-slate-200">{p.squad?.length || 0}</strong>/{room.settings.squadSize}</span>
+                      {full ? (
+                        <span className="text-green-400 font-semibold text-[9px] bg-green-500/10 px-1 rounded border border-green-500/20">Full</span>
+                      ) : passed ? (
+                        <span className="text-slate-400 font-semibold text-[9px] bg-slate-800 px-1 rounded">Passed</span>
+                      ) : isWinning ? (
+                        <span className="text-amber-300 font-semibold text-[9px] bg-amber-500/20 px-1 rounded border border-amber-500/30 animate-pulse">High Bid</span>
+                      ) : null}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Right: Berry Balance */}
+                <div className="text-right shrink-0">
+                  <div className="text-[9px] text-amber-400/70 font-mono uppercase">BERRIES</div>
+                  <div className={`text-xs sm:text-sm font-black font-mono ${
+                    p.berries === 0 ? 'text-slate-500' : 'text-amber-300'
+                  }`}>
+                    ฿ {((p.berries || 0) / 1000000).toLocaleString()}M
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
 

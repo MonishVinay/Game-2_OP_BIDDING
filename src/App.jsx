@@ -39,6 +39,7 @@ export default function App() {
 
   // Modals
   const [isSquadOpen, setIsSquadOpen] = useState(false);
+  const [selectedSquadPlayerId, setSelectedSquadPlayerId] = useState(null);
   const [isDexOpen, setIsDexOpen] = useState(false);
   const [soundActive, setSoundActive] = useState(!isSoundMuted());
   const [leaderboardData, setLeaderboardData] = useState(null);
@@ -69,8 +70,15 @@ export default function App() {
       }
     });
 
-    newSocket.on('bid_placed', ({ bidder, amount }) => {
+    newSocket.on('timer_tick', ({ timer }) => {
+      setRoom(prev => prev ? { ...prev, timer } : null);
+    });
+
+    newSocket.on('bid_placed', ({ bidder, amount, timer }) => {
       showToast(`🔥 ${bidder.avatar} ${bidder.name} bid ฿ ${(amount / 1000000).toLocaleString()}M!`);
+      if (typeof timer === 'number') {
+        setRoom(prev => prev ? { ...prev, timer } : null);
+      }
     });
 
     newSocket.on('lot_sold', ({ character, winner, amount }) => {
@@ -365,7 +373,10 @@ export default function App() {
             playerId={playerId}
             onPlaceBid={handlePlaceBid}
             onPassLot={handlePassLot}
-            onOpenSquad={() => setIsSquadOpen(true)}
+            onOpenSquad={(targetId) => {
+              setSelectedSquadPlayerId(targetId || playerId);
+              setIsSquadOpen(true);
+            }}
             onOpenDex={() => setIsDexOpen(true)}
           />
         )}
@@ -394,7 +405,10 @@ export default function App() {
 
           {/* Crew Squad Review */}
           <button
-            onClick={() => setIsSquadOpen(true)}
+            onClick={() => {
+              setSelectedSquadPlayerId(playerId);
+              setIsSquadOpen(true);
+            }}
             className="flex items-center gap-2 px-4 py-3 rounded-full bg-gradient-to-r from-red-700 to-amber-600 hover:from-red-600 hover:to-amber-500 text-white font-bold text-xs shadow-2xl border-2 border-amber-300 backdrop-blur transition cursor-pointer"
           >
             <Layers className="w-4 h-4" />
@@ -410,6 +424,7 @@ export default function App() {
           onClose={() => setIsSquadOpen(false)}
           players={room.players}
           currentPlayerId={playerId}
+          initialPlayerId={selectedSquadPlayerId || playerId}
           squadSize={room.settings.squadSize}
         />
       )}

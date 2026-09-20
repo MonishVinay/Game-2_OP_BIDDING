@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import CharacterCard from './CharacterCard';
 import { X, Shield, Sparkles, Award, Coins, Users, Flame } from 'lucide-react';
 import { calculateCrewSynergies } from '../synergyEngine';
@@ -8,9 +8,16 @@ export default function SquadDrawer({
   onClose, 
   players, 
   currentPlayerId, 
+  initialPlayerId,
   squadSize 
 }) {
-  const [selectedPlayerId, setSelectedPlayerId] = useState(currentPlayerId);
+  const [selectedPlayerId, setSelectedPlayerId] = useState(initialPlayerId || currentPlayerId);
+
+  useEffect(() => {
+    if (initialPlayerId) {
+      setSelectedPlayerId(initialPlayerId);
+    }
+  }, [initialPlayerId, isOpen]);
 
   if (!isOpen) return null;
 

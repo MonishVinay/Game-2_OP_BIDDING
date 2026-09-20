@@ -147,8 +147,13 @@ export function calculateCrewSynergies(squad = [], remainingBerries = 0) {
     });
   }
 
-  // 4. Iconic Lore Combos
-  const has = (name) => charNames.has(name);
+  const has = (name) => {
+    if (charNames.has(name)) return true;
+    for (const n of charNames) {
+      if (n.includes(name) || name.includes(n)) return true;
+    }
+    return false;
+  };
 
   if (has('Roronoa Zoro') && has('Sanji')) {
     const bonus = 450;
@@ -244,7 +249,7 @@ export function calculateCrewSynergies(squad = [], remainingBerries = 0) {
     });
   }
 
-  const marineLegends = [has('Sakazuki (Akainu)'), has('Kuzan (Aokiji)'), has('Borsalino (Kizaru)'), has('Sengoku the Buddha'), has('Issho (Fujitora)')].filter(Boolean).length;
+  const marineLegends = [has('Akainu'), has('Aokiji'), has('Kizaru'), has('Sengoku'), has('Fujitora')].filter(Boolean).length;
   if (marineLegends >= 2) {
     const bonus = 550;
     loreBonus += bonus;

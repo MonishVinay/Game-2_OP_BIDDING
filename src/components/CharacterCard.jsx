@@ -173,35 +173,29 @@ export default function CharacterCard({
       {/* Detailed Combat Stats */}
       {showStats && character.stats && isPoster && (
         <div className="bg-amber-950/5 border border-amber-950/20 rounded p-2 text-xs space-y-1 mt-2">
-          <div className="grid grid-cols-2 gap-x-3 gap-y-1">
-            <div className="flex items-center justify-between">
-              <span className="text-amber-900/80 font-medium flex items-center gap-1">
-                <Swords className="w-3 h-3 text-red-700" /> ATK
-              </span>
-              <span className="font-bold text-amber-950">{character.stats.attack}</span>
+          <div className="grid grid-cols-3 gap-1 text-center">
+            <div className="bg-amber-900/10 rounded py-1 px-1 border border-amber-800/15">
+              <div className="text-[10px] text-red-800 font-semibold flex items-center justify-center gap-0.5 uppercase">
+                <Swords className="w-2.5 h-2.5" /> ATK
+              </div>
+              <span className="font-bold text-amber-950 text-xs md:text-sm">{character.stats.attack}</span>
             </div>
-            <div className="flex items-center justify-between">
-              <span className="text-amber-900/80 font-medium flex items-center gap-1">
-                <Shield className="w-3 h-3 text-blue-700" /> DEF
-              </span>
-              <span className="font-bold text-amber-950">{character.stats.defense}</span>
+            <div className="bg-amber-900/10 rounded py-1 px-1 border border-amber-800/15">
+              <div className="text-[10px] text-orange-800 font-semibold flex items-center justify-center gap-0.5 uppercase">
+                <Flame className="w-2.5 h-2.5" /> STR
+              </div>
+              <span className="font-bold text-amber-950 text-xs md:text-sm">{character.stats.strength}</span>
             </div>
-            <div className="flex items-center justify-between">
-              <span className="text-amber-900/80 font-medium flex items-center gap-1">
-                <Sparkles className="w-3 h-3 text-purple-700" /> HAKI
-              </span>
-              <span className="font-bold text-amber-950">{character.stats.hakiPower}</span>
-            </div>
-            <div className="flex items-center justify-between">
-              <span className="text-amber-900/80 font-medium flex items-center gap-1">
-                <Zap className="w-3 h-3 text-amber-700" /> SKILL
-              </span>
-              <span className="font-bold text-amber-950">{character.stats.skill}</span>
+            <div className="bg-amber-900/10 rounded py-1 px-1 border border-amber-800/15">
+              <div className="text-[10px] text-blue-800 font-semibold flex items-center justify-center gap-0.5 uppercase">
+                <Shield className="w-2.5 h-2.5" /> DEF
+              </div>
+              <span className="font-bold text-amber-950 text-xs md:text-sm">{character.stats.defense}</span>
             </div>
           </div>
 
           {character.devilFruit && character.devilFruit !== 'None' && (
-            <div className="pt-1 border-t border-amber-950/15 text-[10px] text-amber-900 truncate">
+            <div className="pt-1 border-t border-amber-950/15 text-[10px] text-amber-900 truncate text-center">
               <span className="font-semibold">Devil Fruit:</span> {character.devilFruit}
             </div>
           )}
