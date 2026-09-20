@@ -90,7 +90,8 @@ function createRoom(hostSocketId, settings = {}) {
       squadSize: settings.squadSize || 5, // 3 to 10
       startingBudget: settings.startingBudget || 100000000, // default 100M Berries
       timerDuration: settings.timerDuration || 10, // seconds
-      minBidIncrement: settings.minBidIncrement || 5000000 // 5M
+      minBidIncrement: settings.minBidIncrement || 5000000, // 5M
+      auctionPoolSize: settings.auctionPoolSize || 50 // 25, 50, 75, 100, 150
     },
     players: [],
     deck: shuffleArray(CHARACTERS),
@@ -139,14 +140,7 @@ function broadcastRoom(code) {
     timer: room.timer,
     status: room.status,
     bidHistory: room.bidHistory,
-    round: room.round,
-    nextLotPreview: room.deck[room.currentLotIndex + 1] ? {
-      id: room.deck[room.currentLotIndex + 1].id,
-      name: room.deck[room.currentLotIndex + 1].name,
-      tier: room.deck[room.currentLotIndex + 1].tier,
-      role: room.deck[room.currentLotIndex + 1].role,
-      faction: room.deck[room.currentLotIndex + 1].faction
-    } : null
+    round: room.round
   };
 
   io.to(code).emit('room_update', sanitizedRoom);
@@ -184,7 +178,8 @@ function startNextLot(code) {
   }
 
   room.currentLot = room.deck[room.currentLotIndex];
-  room.currentBid = Math.max(1000000, room.settings.minBidIncrement);
+  // Base opening price for every character (proportional to bounty/tier)
+  room.currentBid = room.currentLot.basePrice || Math.max(1000000, room.settings.minBidIncrement);
   room.highestBidder = null;
   room.bidHistory = [];
   room.timer = room.settings.timerDuration;
@@ -308,11 +303,10 @@ function triggerBotBidding(code) {
       return;
     }
 
-    // Bot valuation based on character tier and power
-    const tierMultipliers = { EX: 0.7, SSR: 0.5, SR: 0.35, R: 0.2 };
-    const tierMultiplier = tierMultipliers[room.currentLot.tier] || 0.25;
+    // Bot valuation based on character bounty-proportional power scaling
     const botBudgetShare = room.settings.startingBudget / room.settings.squadSize;
-    const botTargetMaxBid = Math.min(maxAffordable, botBudgetShare * (1 + tierMultiplier * 1.5));
+    const powerRatio = Math.min(2.0, Math.max(0.3, (room.currentLot.power || 500) / 1200));
+    const botTargetMaxBid = Math.min(maxAffordable, Math.max(room.currentLot.basePrice || 1000000, botBudgetShare * powerRatio));
 
     // Decision to bid
     if (nextBid <= botTargetMaxBid && Math.random() < 0.45) {
@@ -523,6 +517,7 @@ io.on('connection', (socket) => {
     }
     if (settings.timerDuration) room.settings.timerDuration = Math.max(5, Math.min(30, settings.timerDuration));
     if (settings.minBidIncrement) room.settings.minBidIncrement = settings.minBidIncrement;
+    if (settings.auctionPoolSize) room.settings.auctionPoolSize = Math.max(10, Math.min(150, settings.auctionPoolSize));
 
     broadcastRoom(roomCode);
   });
@@ -590,7 +585,14 @@ io.on('connection', (socket) => {
       p.hasPassed = false;
     });
 
-    room.deck = shuffleArray(CHARACTERS);
+    // Select top N most powerful characters according to auctionPoolSize
+    const minNeeded = room.players.length * room.settings.squadSize;
+    const poolLimit = Math.max(minNeeded, room.settings.auctionPoolSize || 50);
+
+    const sortedByPower = [...CHARACTERS].sort((a, b) => (b.power || b.stats.total) - (a.power || a.stats.total));
+    const selectedPool = sortedByPower.slice(0, poolLimit);
+    room.deck = shuffleArray(selectedPool);
+
     room.currentLotIndex = -1;
     room.round = 0;
 

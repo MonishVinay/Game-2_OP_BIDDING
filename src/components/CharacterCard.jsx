@@ -78,17 +78,17 @@ export default function CharacterCard({
         </div>
 
         {/* Total Power Badge */}
-        {character.stats && (
-          <div className="absolute top-2 right-2 z-10 px-2 py-0.5 rounded bg-gradient-to-r from-red-800 to-amber-700 border border-amber-300/40 text-[10px] font-black text-white shadow">
-            PWR {character.stats.total}
-          </div>
-        )}
+        <div className="absolute top-2 right-2 z-10 px-2 py-0.5 rounded bg-gradient-to-r from-red-800 to-amber-700 border border-amber-300/40 text-[10px] font-black text-white shadow">
+          PWR {character.power || character.stats?.total}
+        </div>
 
         {/* Image / Fallback */}
         {!imageError ? (
           <img
             src={character.image}
             alt={character.name}
+            referrerPolicy="no-referrer"
+            crossOrigin="anonymous"
             className={`w-full h-full object-cover object-top transition-opacity duration-300 ${
               imageLoaded ? 'opacity-100' : 'opacity-0'
             }`}
@@ -140,10 +140,15 @@ export default function CharacterCard({
         )}
       </div>
 
-      {/* Official Bounty Amount */}
+      {/* Official Bounty Amount & Base Opening Price */}
       <div className="bg-amber-950/10 border border-amber-950/30 rounded py-1 px-2 text-center mb-2 shadow-inner">
-        <div className="text-[9px] uppercase tracking-wider text-amber-900/80 font-bold">
-          BOUNTY AMOUNT
+        <div className="flex items-center justify-between px-1">
+          <span className="text-[9px] uppercase tracking-wider text-amber-900/80 font-bold">BOUNTY AMOUNT</span>
+          {character.basePriceFormatted && (
+            <span className="text-[9px] uppercase tracking-wider text-amber-800 font-mono font-bold">
+              OPENING: <strong className="text-amber-950">{character.basePriceFormatted}</strong>
+            </span>
+          )}
         </div>
         <div className="bounty-font text-base md:text-lg font-black text-amber-950 tracking-tight">
           {character.bountyFormatted || `฿ ${(character.bounty || 0).toLocaleString()}-`}

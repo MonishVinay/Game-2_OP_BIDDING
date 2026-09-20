@@ -255,6 +255,35 @@ export default function Lobby({
                 </div>
               </div>
 
+              {/* Auction Pool Size (Most Powerful Characters) */}
+              <div>
+                <div className="flex justify-between items-center font-semibold text-amber-200 mb-1">
+                  <span>Auction Pool Size:</span>
+                  <span className="text-amber-400 font-mono text-xs">
+                    {room.settings.auctionPoolSize === 150 ? 'All 150 Roster' : `Top ${room.settings.auctionPoolSize} Most Powerful`}
+                  </span>
+                </div>
+                <p className="text-[10px] text-amber-300/70 mb-1.5 font-serif">
+                  Filters the auction deck to the highest bounty & combat threat legends.
+                </p>
+                <div className="grid grid-cols-5 gap-1">
+                  {[25, 50, 75, 100, 150].map((size) => (
+                    <button
+                      key={size}
+                      disabled={!isHost}
+                      onClick={() => onUpdateSettings({ auctionPoolSize: size })}
+                      className={`py-1 rounded font-mono font-bold text-xs border transition ${
+                        (room.settings.auctionPoolSize || 50) === size
+                          ? 'bg-gradient-to-r from-red-600 to-amber-600 text-white border-amber-300 shadow'
+                          : 'bg-slate-800 text-amber-200/70 border-slate-700 hover:bg-slate-700'
+                      } ${!isHost ? 'opacity-90 cursor-default' : ''}`}
+                    >
+                      {size}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
               {/* Min Increment */}
               <div>
                 <div className="font-semibold text-amber-200 mb-1.5">Min Bid Increment:</div>

@@ -9,7 +9,7 @@ import {
   CheckCircle2, 
   XCircle, 
   Flame, 
-  Eye, 
+  Tag, 
   Layers,
   ArrowUpCircle
 } from 'lucide-react';
@@ -140,23 +140,17 @@ export default function AuctionTable({
           </div>
         </div>
 
-        {/* Next Preview Button */}
-        <div 
-          onClick={onOpenDex}
-          className="bg-slate-950/70 border border-amber-500/20 rounded-lg p-2.5 flex items-center justify-between cursor-pointer hover:border-amber-400/40 transition group"
-        >
-          <div className="flex items-center gap-2.5 overflow-hidden">
-            <div className="p-2 rounded-lg bg-red-500/20 text-red-400 shrink-0">
-              <Eye className="w-5 h-5" />
-            </div>
-            <div className="truncate">
-              <div className="text-[10px] text-red-300/80 font-mono uppercase tracking-wider">UP NEXT</div>
-              <div className="text-xs md:text-sm font-bold text-amber-200 truncate">
-                {room.nextLotPreview?.name || 'Grand Line Card'}
-              </div>
+        {/* Base Starting Opening Price for Current Lot */}
+        <div className="bg-slate-950/70 border border-amber-500/20 rounded-lg p-2.5 flex items-center gap-2.5">
+          <div className="p-2 rounded-lg bg-red-500/20 text-red-400 shrink-0">
+            <Tag className="w-5 h-5" />
+          </div>
+          <div className="truncate">
+            <div className="text-[10px] text-red-300/80 font-mono uppercase tracking-wider">BASE PRICE</div>
+            <div className="text-xs md:text-sm font-black text-amber-300 font-mono truncate">
+              {room.currentLot?.basePriceFormatted || `฿ ${((room.currentLot?.basePrice || 1000000) / 1000000)}M`}
             </div>
           </div>
-          <ChevronRight className="w-4 h-4 text-slate-500 group-hover:text-amber-400 transition shrink-0" />
         </div>
       </div>
 
