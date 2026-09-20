@@ -109,9 +109,9 @@ export default function SquadDrawer({
                 <div className="text-base font-black text-amber-300 font-mono">{synergyReport.basePower}</div>
               </div>
               <div className="bg-slate-950/80 px-3 py-2 rounded-xl border border-amber-500/30 min-w-20">
-                <div className="text-[9px] uppercase font-mono text-slate-400">SYNERGIES</div>
+                <div className="text-[9px] uppercase font-mono text-slate-400">SYNERGIES (MAX 150)</div>
                 <div className="text-base font-black text-green-400 font-mono">
-                  +{synergyReport.factionBonus + synergyReport.roleBonus + synergyReport.loreBonus}
+                  +{synergyReport.totalSynergyBonus ?? (synergyReport.factionBonus + synergyReport.roleBonus + synergyReport.loreBonus)}
                 </div>
               </div>
               <div className="bg-gradient-to-br from-red-900 to-amber-900 px-4 py-2 rounded-xl border border-amber-400 shadow min-w-24">

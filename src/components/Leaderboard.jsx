@@ -87,7 +87,7 @@ export default function Leaderboard({
               {podiumTop3[1].totalScore} PTS
             </div>
             <div className="text-[11px] text-slate-400 mt-2">
-              Base: {podiumTop3[1].basePower} | Syn: +{podiumTop3[1].factionBonus + podiumTop3[1].roleBonus + podiumTop3[1].loreBonus}
+              Base: {podiumTop3[1].basePower} | Syn: +{podiumTop3[1].totalSynergyBonus ?? (podiumTop3[1].factionBonus + podiumTop3[1].roleBonus + podiumTop3[1].loreBonus)}
             </div>
           </div>
         )}
@@ -113,9 +113,9 @@ export default function Leaderboard({
               <span className="text-white font-bold">{winner.basePower}</span>
             </div>
             <div className="bg-slate-950/60 p-1.5 rounded border border-amber-500/20">
-              <span className="text-slate-400 block">SYNERGIES</span>
+              <span className="text-slate-400 block">SYNERGIES (MAX 150)</span>
               <span className="text-green-400 font-bold">
-                +{winner.factionBonus + winner.roleBonus + winner.loreBonus}
+                +{winner.totalSynergyBonus ?? (winner.factionBonus + winner.roleBonus + winner.loreBonus)}
               </span>
             </div>
             <div className="bg-slate-950/60 p-1.5 rounded border border-amber-500/20">
@@ -140,7 +140,7 @@ export default function Leaderboard({
               {podiumTop3[2].totalScore} PTS
             </div>
             <div className="text-[11px] text-slate-400 mt-2">
-              Base: {podiumTop3[2].basePower} | Syn: +{podiumTop3[2].factionBonus + podiumTop3[2].roleBonus + podiumTop3[2].loreBonus}
+              Base: {podiumTop3[2].basePower} | Syn: +{podiumTop3[2].totalSynergyBonus ?? (podiumTop3[2].factionBonus + podiumTop3[2].roleBonus + podiumTop3[2].loreBonus)}
             </div>
           </div>
         )}
@@ -193,9 +193,9 @@ export default function Leaderboard({
                     <strong className="text-white">{player.basePower}</strong>
                   </div>
                   <div className="bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800 font-mono">
-                    <span className="text-slate-400 mr-1.5">Synergies:</span>
+                    <span className="text-slate-400 mr-1.5">Synergies (Max 150):</span>
                     <strong className="text-green-400">
-                      +{player.factionBonus + player.roleBonus + player.loreBonus}
+                      +{player.totalSynergyBonus ?? (player.factionBonus + player.roleBonus + player.loreBonus)}
                     </strong>
                   </div>
                   <div className="bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800 font-mono">
