@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: #060d15;
+  background-image: 
+    radial-gradient(circle at 50% 10%, rgba(26, 54, 93, 0.4), transparent 60%),
+    radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.08), transparent 40%),
+    linear-gradient(to bottom, #060d15, #0a1420);
+  background-attachment: fixed;
+  color: #f3f4f6;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Wanted Poster Parchment Style */
+.wanted-poster {
+  background: #f7ebcf;
+  background-image: radial-gradient(#edd3a3 1px, transparent 1px), radial-gradient(#ebd09d 1px, #f7ebcf 1px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  border: 4px solid #3c2415;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.75), inset 0 0 40px rgba(139, 69, 19, 0.25);
+  color: #2b1704;
+}
+
+.wanted-title {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.18em;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.bounty-font {
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.pirate-title {
+  font-family: 'Pirata One', 'Cinzel Decorative', cursive;
+  letter-spacing: 0.05em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #09131d;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b4252;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Glowing Aura for High Tiers */
+.glow-ex {
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.5), 0 0 50px rgba(239, 68, 68, 0.2);
+}
+.glow-ssr {
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.5), 0 0 40px rgba(245, 158, 11, 0.2);
+}
+.glow-sr {
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.4);
+}
