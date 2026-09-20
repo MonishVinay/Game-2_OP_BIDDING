@@ -232,9 +232,42 @@ function runLotTimer(code) {
   }, 1000);
 }
 
+function checkAllPassed(code) {
+  const room = rooms.get(code);
+  if (!room || room.status !== 'auction') return false;
+
+  // Contenders who can still place a bid:
+  // 1. Squad is not full
+  // 2. Has not passed
+  // 3. Is not already holding the winning bid
+  const remainingBidders = room.players.filter(p => 
+    p.squad.length < room.settings.squadSize && 
+    !p.hasPassed && 
+    (!room.highestBidder || p.id !== room.highestBidder.id)
+  );
+
+  // If all eligible players passed (or everyone passed on the current high bid), end timer immediately!
+  if (remainingBidders.length === 0) {
+    if (room.timerInterval) {
+      clearInterval(room.timerInterval);
+      room.timerInterval = null;
+    }
+    room.timer = 0;
+    io.to(code).emit('timer_tick', { timer: 0 });
+    resolveLot(code);
+    return true;
+  }
+  return false;
+}
+
 function resolveLot(code) {
   const room = rooms.get(code);
-  if (!room) return;
+  if (!room || room.status !== 'auction') return;
+
+  if (room.timerInterval) {
+    clearInterval(room.timerInterval);
+    room.timerInterval = null;
+  }
 
   room.status = 'sold_delay';
 
@@ -298,15 +331,16 @@ function triggerBotBidding(code) {
 
     const nextBid = room.highestBidder ? room.currentBid + room.settings.minBidIncrement : room.currentBid;
 
-    if (nextBid > maxAffordable) {
-      bot.hasPassed = true;
-      return;
-    }
-
     // Bot valuation based on character bounty-proportional power scaling
     const botBudgetShare = room.settings.startingBudget / room.settings.squadSize;
     const powerRatio = Math.min(2.0, Math.max(0.3, (room.currentLot.power || 500) / 1200));
     const botTargetMaxBid = Math.min(maxAffordable, Math.max(room.currentLot.basePrice || 1000000, botBudgetShare * powerRatio));
+
+    if (nextBid > maxAffordable || nextBid > botTargetMaxBid) {
+      bot.hasPassed = true;
+      checkAllPassed(code);
+      return;
+    }
 
     // Decision to bid
     if (nextBid <= botTargetMaxBid && Math.random() < 0.45) {
@@ -619,12 +653,8 @@ io.on('connection', (socket) => {
         playerName: player.name
       });
 
-      // If all eligible players passed, expedite timer
-      const eligible = room.players.filter(p => p.squad.length < room.settings.squadSize && !p.hasPassed);
-      if (eligible.length === 0 && room.timer > 2) {
-        room.timer = 1;
-      }
       broadcastRoom(roomCode);
+      checkAllPassed(roomCode);
     }
   });
 
@@ -674,6 +704,9 @@ io.on('connection', (socket) => {
           rooms.delete(code);
         } else {
           broadcastRoom(code);
+          if (room.status === 'auction') {
+            checkAllPassed(code);
+          }
         }
       }
     });
